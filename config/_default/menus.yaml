@@ -7,18 +7,18 @@ main:
   - name: Tour
     url: tour
     weight: 10
-  - name: News
+  - name: Новости #News
     url: post
     weight: 20
-  - name: People
+  - name: Команда  #People
     url: people
     weight: 30
   - name: Events
     url: event
     weight: 40
-  - name: Publications
+  - name: Публикации  # Publications
     url: publication
     weight: 50
-  - name: Contact
+  - name: Контакты # Contact
     url: contact
     weight: 60
