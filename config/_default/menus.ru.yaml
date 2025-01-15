@@ -7,7 +7,7 @@ main:
   - name: Tour
     url: tour
     weight: 10
-  - name: Последние новости #News
+  - name: Новости #News
     url: post
     weight: 20
   - name: Команда  #People
@@ -23,11 +23,11 @@ main:
   - name: Студентам  # Publications
     url: for-students
     weight: 60  
-  - name: Курсы  
+  - name: Учебные курсы  
     parent: Студентам
     url: for-students/courses
     weight: 1
-  - name: Темы курсовых  
+  - name: Курсовые работы  
     parent: Студентам
     url: for-students/my-first-research
     weight: 2
