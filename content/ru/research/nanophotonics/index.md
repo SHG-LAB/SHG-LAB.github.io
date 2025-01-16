@@ -1,4 +1,13 @@
 ---
+# Files in this folder represent a Widget Page (homepage)
+type: widget_page
+title: "Оптика метаматериалов и фотонных кристаллов"
+authors: ["admin"]
+show_date: false
+---
+Краткое описание направления 
+
+<!-- ---
 # Page title
 title: Оптика метаматериалов и фотонных кристаллов
 # Page type - we want a landing page (such as a homepage)
@@ -18,7 +27,7 @@ sections:
 #       title: Section 2
 #       subtitle: A subtitle
 #       text: Add your Section 2 content here...
----
+--- -->
 
 
 

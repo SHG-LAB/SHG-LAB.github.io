@@ -1,4 +1,16 @@
 ---
+title: Направления ... 
+
+# Listing view
+#view: publications
+
+# Optional banner image (relative to `assets/media/` folder).
+#banner:
+  # caption: ''
+  # image: ''
+---
+
+<!-- ---
 title: Наши исследования
 type: landing
 
@@ -33,4 +45,4 @@ sections:
     design:
       # Choose a listing view
       view: showcase
----
+--- -->
