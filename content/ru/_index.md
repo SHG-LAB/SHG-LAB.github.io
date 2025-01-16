@@ -19,7 +19,7 @@ sections:
   
   - block: collection
     content:
-      title: Latest News
+      title: Последние новости
       subtitle:
       text:
       count: 5

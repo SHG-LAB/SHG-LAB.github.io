@@ -7,6 +7,9 @@ main:
   - name: Tour
     url: tour
     weight: 10
+  - name: Исследования
+    url: research
+    weight: 15
   - name: Новости #News
     url: post
     weight: 20
