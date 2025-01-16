@@ -6,6 +6,7 @@ date: 2025-01-13
 
 Фьють!
 
+
 <!-- ---
 # Files in this folder represent a Widget Page (homepage)
 type: widget_page
