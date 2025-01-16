@@ -15,7 +15,7 @@ sections:
       filters:
         # The folders to display content from
         folders:
-          - ru/research
+          - nanophotonics
         author: ""
         category: ""
         tag: ""
