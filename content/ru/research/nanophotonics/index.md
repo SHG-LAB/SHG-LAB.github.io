@@ -1,11 +1,22 @@
 ---
+title: Оптика метаматериалов и фотонных кристаллов
+date: 
+show_date: false
+---
+Краткое описание направления
+
+<!--more-->
+
+Полное описание направления па-па-па
+
+<!-- ---
 # Files in this folder represent a Widget Page (homepage)
 type: widget_page
 title: "Оптика метаматериалов и фотонных кристаллов"
 authors: ["admin"]
 show_date: false
 ---
-Краткое описание направления 
+Краткое описание направления  -->
 
 <!-- ---
 # Page title

@@ -1,15 +1,14 @@
 ---
-title: Направления ... 
+title: Темы исследований  #Latest News
 
 # Listing view
-#view: publications
+view: compact
 
 # Optional banner image (relative to `assets/media/` folder).
-#banner:
-  # caption: ''
-  # image: ''
+banner:
+  caption: ''
+  image: ''
 ---
-
 <!-- ---
 title: Наши исследования
 type: landing
