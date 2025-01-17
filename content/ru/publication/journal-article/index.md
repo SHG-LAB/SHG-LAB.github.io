@@ -4,8 +4,8 @@ authors:
 - admin
 - Robert Ford
 - Ivan I. Ivanov
-- John V. Meme
-- Serge A Tankian
+- "John V. Meme"
+- "Serge A Tankian"
 - Pavel A. Escobarov
 #author_notes:
 #- "Equal contribution"
