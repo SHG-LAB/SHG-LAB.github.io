@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Майдыковский Антон Игоревич
+title: Новиков Владимир Борисович
 
 # Full Name (for SEO)
-first_name: Антон Игоревич
-last_name: Майдыковский
+first_name: Владимир Борисович
+last_name: Новиков
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: к.ф-м.н., старший научный сотрудник
+role: к.ф-м.н., научный сотрудник
 
 # Organizations/Affiliations
 organizations:

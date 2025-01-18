@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Татьяна Владимировна Мурзина
+title: Мурзина Татьяна Владимировна
 
 # Full Name (for SEO)
 first_name: Татьяна Владимировна 
@@ -10,7 +10,7 @@ last_name: Мурзина
 superuser: false
 
 # Role/position
-role: Руководитель лаборатории
+role: д.ф-м.н., доцент
 
 # Organizations/Affiliations
 organizations:

@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Майдыковский Антон Игоревич
+title: Доценко Андрей 
 
 # Full Name (for SEO)
-first_name: Антон Игоревич
-last_name: Майдыковский
+first_name: Андрей
+last_name: Доценко
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: к.ф-м.н., старший научный сотрудник
+role: 🤠
 
 # Organizations/Affiliations
 organizations:
@@ -70,7 +70,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Сотрудники
+  - Аспиранты
 ---
 
 Основной текст о себе ... 
