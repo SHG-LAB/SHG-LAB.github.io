@@ -1,13 +1,13 @@
+
 ---
-title: Курсы 
+title: Учебные курсы
+type: landing
 
-# Listing view
-view: compact
+sections:
+  - block: markdown
+    content:
+      title: Курс 1
+      subtitle: О чём
+      text: Тут будут курсы от сотрудников нашей лаборатории!
 
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
 ---
-
-Тут будут курсы от сотрудников нашей лаборатории!
