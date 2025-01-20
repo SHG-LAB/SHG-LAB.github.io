@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 
+title: Арсений Загравский
 
 # Full Name (for SEO)
-first_name:  
-last_name: 
+first_name: Арсений
+last_name: Загравский
 
 # Is this the primary user of the site?
 superuser: false
