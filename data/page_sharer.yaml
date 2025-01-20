@@ -5,7 +5,7 @@
 links:
   
   - id: telegram
-    url: 'https://t.me/share/url?url={url}&text={text}'
+    url: 'https://t.me/share/url?url={url}&text={title}'
     title: telegram
     icon: brands/telegram
     enable: true

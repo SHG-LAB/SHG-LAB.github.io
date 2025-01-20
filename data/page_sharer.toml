@@ -3,7 +3,7 @@
 
 [[buttons]]
   id = "telegram"
-  url = "https://t.me/share/url?url={url}&text={text}"
+  url = "https://t.me/share/url?url={url}&text={title}"
   title = "Telegram"
   icon_pack = "fab"
   icon = "telegram"
@@ -32,7 +32,7 @@
   icon_pack = "fab"
   icon = "linkedin-in"
   enable = true
-  
+
 [[buttons]]
   id = "twitter"
   url = "https://twitter.com/intent/tweet?url={url}&text={title}"
