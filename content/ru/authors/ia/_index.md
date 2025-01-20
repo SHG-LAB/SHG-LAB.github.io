@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Новиков Владимир Борисович
+title: Ирина Алексеевна Колмычек
 
 # Full Name (for SEO)
-first_name: Владимир Борисович
-last_name: Новиков
+first_name: Ирина 
+last_name: Колмычек
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: к.ф-м.н., научный сотрудник
+role: д.ф-м.н., доцент
 
 # Organizations/Affiliations
 organizations:

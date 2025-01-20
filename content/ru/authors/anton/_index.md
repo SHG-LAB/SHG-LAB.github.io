@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Майдыковский Антон Игоревич
+title: Антон Игоревич Майдыковский 
 
 # Full Name (for SEO)
 first_name: Антон Игоревич

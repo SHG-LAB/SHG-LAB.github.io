@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Татьяна Владимировна Мурзина 
+title: Илья Батуев 
 
 # Full Name (for SEO)
-first_name: Татьяна Владимировна 
-last_name: Мурзина
+first_name: Илья  
+last_name: Батуев 
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: д.ф-м.н., доцент
+role: 🥺
 
 # Organizations/Affiliations
 organizations:
@@ -70,7 +70,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Руководитель лаборатории
+  - Студенты
 ---
 
 Основной текст о себе ... 

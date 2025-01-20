@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Доценко Андрей 
+title: Андрей Доценко 
 
 # Full Name (for SEO)
 first_name: Андрей
