@@ -1,9 +1,15 @@
 ---
-title: Оптика
+title: Оптика наноструктур
 date: 2025-01-13
+
+featured: true
+show_date: false
+reading_time: false
+share: false
 ---
 Парапампам
 
+<!--more-->
 Фьють!
 
 
