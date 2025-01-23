@@ -1,14 +1,21 @@
 ---
-title: Ресёрч  #Latest News
+title: Тематика
+date: 2022-10-24
+type: landing
 
-# Listing view
-view: compact
+sections:
 
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+ - block: collection
+    content:
+      title: Заголовок
+      text: ""
+      count: 5
+      filters:
+        folders:
+          - research
+        publication_type: 'article'
+    design:
+      view: card
+      columns: '1'
+
 ---
-
-Тут что-то будет 
-# Пока что ничего не работает :( 

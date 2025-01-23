@@ -8,8 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Лаборатория нелинейной оптики наноструктур и фотонных кристаллов
       image:
         filename: welcome.jpg
       text: |
