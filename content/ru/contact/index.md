@@ -53,7 +53,7 @@ sections:
       subtitle: ''
       text:
     design:
-      columns: '2'
+      columns: '1'
       background:
         image: 
           filename: Logo2.gif
@@ -61,7 +61,7 @@ sections:
             brightness: 1
           parallax: false
           position: center
-          size: cover
+          size: actual
           text_color_light: true
       spacing:
         padding: ['20px', '0px', '20px', '0px'] # ['20px', '0', '20px', '0']
