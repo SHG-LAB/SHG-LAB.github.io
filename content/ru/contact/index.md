@@ -37,13 +37,13 @@ sections:
       autolink: true
     
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '1'
 
@@ -56,7 +56,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: contact.jpg
+          filename: Logo2.gif
           filters:
             brightness: 1
           parallax: false
@@ -64,6 +64,6 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
+        padding: ['20px', '50px', '20px', '50px'] # ['20px', '0', '20px', '0']
       css_class: fullscreen
 ---
