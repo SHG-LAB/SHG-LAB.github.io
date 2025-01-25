@@ -1,0 +1,74 @@
+{{- define "main" -}}
+
+{{ $featured := partial "blox-core/functions/get_featured_image.html" .}}
+
+<!-- Here is missing the publication type! see https://github.com/HugoBlox/hugo-blox-builder/blob/main/modules/blox-bootstrap/layouts/publication/single.html -->
+
+{{ $anchor := .Params.image.focal_point | default "Smart" }}
+
+{{/* Set default titles for node pages */}}
+{{ $title := .Title }}
+{{ if and (not $title) .IsNode }}
+  {{ if eq .Type "post" }}
+    {{ $title = i18n "posts" }}
+  {{ else if eq .Type "event" }}
+    {{ $title = i18n "talks" }}
+  {{ else if eq .Type "publication" }}
+    {{ $title = i18n "publications" }}
+  {{end}}
+{{end}}
+
+{{/* Fit image within max size. */}}
+{{ $image := $featured }}
+
+{{/* Determine image placement. */}}
+{{ $placement := .Params.image.placement | default 1 }}{{/* Default to full column width. */}}
+{{/* Fit image to container's max width */}}
+{{ $image_container := "" }}
+{{ if eq $placement 2}}
+  {{ $image_container = "container" }}
+  {{ $image = $featured.Fit "1200x2500 webp" }}
+{{else if eq $placement 3}}
+  {{ $image_container = "container-fluid" }}
+  {{ $image := $featured.Fit "2560x2560 webp" }}
+{{else}}
+  {{ $image_container = "article-container" }}
+  {{ $image = $featured.Fit "720x2500 webp" }}
+{{end}}
+
+
+  <div class="universal-wrapper pt-3">
+    <h1>{{ $title }}</h1>
+
+    {{ with .Params.subtitle }}
+    <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+    {{end}}
+
+    {{ partial "publication_metadata" (dict "page" . "is_list" 1 "share" true) }}
+    {{ partial "page_links_div.html" . }}
+  </div>
+
+  {{/* Featured image */}}
+  <div class="universal-wrapper featured-image-wrapper mt-4 mb-4" style="max-width:{{$image.Width}}px; max-height:{{$image.Height}}px;">
+    <div style="position: relative">
+        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}" class="featured-image">
+        {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+    </div>
+  </div>
+
+  <div class="universal-wrapper">
+
+    {{ if .Params.abstract }}
+    <h3>{{ i18n "abstract" }}</h3>
+    <p class="pub-abstract">{{ .Params.abstract | markdownify }}</p>
+    {{ end }}
+
+    <!-- <div class="space-below"></div> -->
+
+    <div class="article-style">{{ .Content }}</div>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</div>
+{{- end -}}
