@@ -51,17 +51,16 @@ sections:
     content:
       title:
       subtitle: ''
-      text: пупупу
-      image: 
+      text: 
+    design:
+      columns: '1'
+      background:
+        image: 
           filename: Logo2.gif
           parallax: false
           position: center
-          size: actual  #cover 
-    design:
-      columns: '1'
-    #  background:
-        
-    #  spacing:
-    #    padding:  ['20px', '0', '20px', '0']  #  ['250px', '50px', '250px', '50px'] 
-    #  css_class: fullscreen
+          size: actual  #cover   
+     spacing:
+        padding:  ['20px', '500px', '20px', '500px']  #  ['250px', '50px', '250px', '50px'] 
+     #css_class: fullscreen
 ---
