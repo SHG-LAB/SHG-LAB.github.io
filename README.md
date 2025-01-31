@@ -1,6 +1,6 @@
 # [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
 
-
+Publication view copied from https://github.com/cnr-isti-vclab/cnr-isti-vclab.github.io
 
 The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
 
