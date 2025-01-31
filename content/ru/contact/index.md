@@ -63,7 +63,7 @@ sections:
           size: actual #cover
           text_color_light: true
       spacing:
-        padding: ['200px', '0', '200px', '0']
+        padding: ['80px', '0', '80px', '0']
       css_class: fullscreen
   
 ---
