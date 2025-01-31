@@ -61,7 +61,7 @@ sections:
             brightness: 1
           parallax: false
           position: center
-          size: actual
+          size: cover #actual
           text_color_light: true
       # spacing:
       #   padding: ['250px', '50px', '250px', '50px'] # ['20px', '0', '20px', '0']  #  
