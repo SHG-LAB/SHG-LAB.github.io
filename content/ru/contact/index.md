@@ -46,21 +46,24 @@ sections:
       #     captcha: false
     design:
       columns: '1'
-
   - block: markdown
     content:
       title:
       subtitle: ''
-      text: 
+      text:
     design:
       columns: '1'
       background:
         image: 
           filename: Logo2.gif
+          filters:
+            brightness: 1
           parallax: false
           position: center
-          size: actual  #cover   
-     spacing:
-        padding:  ['20px', '500px', '20px', '500px']  #  ['250px', '50px', '250px', '50px'] 
-     #css_class: fullscreen
+          size: actual #cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      #css_class: fullscreen
+  
 ---
