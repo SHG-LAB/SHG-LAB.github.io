@@ -51,7 +51,7 @@ sections:
     content:
       title:
       subtitle: ''
-      text:
+      text: пупупу
     design:
       columns: '1'
       background:
@@ -61,9 +61,9 @@ sections:
             brightness: 1
           parallax: false
           position: center
-          size: actual
+          size: content
           text_color_light: true
       spacing:
-        padding: ['250px', '0px', '250px', '0px'] # ['20px', '0', '20px', '0']  #  
+        padding: ['250px', '50px', '250px', '50px'] # ['20px', '0', '20px', '0']  #  
       #css_class: fullscreen
 ---
