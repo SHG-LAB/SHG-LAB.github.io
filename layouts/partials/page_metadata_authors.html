@@ -9,6 +9,7 @@
     {{- if gt $index 0 }}, {{ end -}}
     <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
       {{/* Effectively check the page's `_build` option as `_build` is not exposed in Hugo's Page object. */}}
+      {{ $redirect_link := partial "lab_alias_calculator" . }}
 
       {{ $result := slice }}
       {{range split .LinkTitle " "}}
@@ -18,12 +19,12 @@
               {{$result = $result | append (upper .)}}
           {{end}}
       {{end}}
-    
-      {{- if .RelPermalink -}}
-        <a href="{{.RelPermalink}}">{{delimit $result " "}}</a>
-      {{- else -}}
-        {{delimit $result " "}}
-      {{- end -}}
+
+        {{- if eq $redirect_link "" -}}
+          {{delimit $result " "}}
+        {{- else -}}
+          <a href="{{$redirect_link}}">{{delimit $result " "}}</a>
+        {{- end -}}
     </span>
     {{- if isset $.Params "author_notes" -}}
       {{- with (index $.Params.author_notes $index) -}}
