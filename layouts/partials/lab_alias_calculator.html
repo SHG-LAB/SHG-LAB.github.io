@@ -1,0 +1,32 @@
+{{/*  Здесь редактируем варианты имени и ссылку на страницы  */}}
+{{$tv := dict
+    "name" "tv"
+    "alias" (slice "t. v. murzina" "tatiana v. murzina" "tatiana v murzina")
+    "link" "../author/татьяна-владимировна-мурзина"
+}}
+
+{{ $andrey := dict
+    "name" "andrey"
+    "alias" (slice "andrey a dotsenko" "a. a. dotsenko" "andrey a. dotsenko") 
+    "link" "../author/андреи-доценко"
+}}
+
+{{/*  Здесь собираем всех членов лабы воедино  */}}
+{{ $lab_members := slice
+    $tv
+    $andrey
+}}
+
+{{ $toFind :=  lower .LinkTitle}}
+{{ $result := ""}}
+
+{{/*  Здесь преобразуем это все в массив вариантов имен с соответствующими ссылками  */}}
+{{ range $member := $lab_members}}
+    {{range $alias := $member.alias}}
+        {{ if eq $toFind $alias }}
+            {{ $result = $member.link }}
+        {{ end }}
+    {{end}}
+{{end}}
+
+{{ return $result }}

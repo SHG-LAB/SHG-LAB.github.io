@@ -8,7 +8,7 @@ authors:
 - Andrey A Dotsenko
 - Nikita S Gusev
 - Evgeny V Skorokhodov
-- Sergey A Gusev
+- Sergey Gusev
 - Vladimir B Novikov
 - Vladimir I Panov
 - Anton I Maydykovskiy
