@@ -5,11 +5,19 @@
 }
 // publications list and each publication page
 .article-metadata{
-    font-size:.9rem;        //larger font size for autors, venue and date
+    font-size: .7rem;        //larger font size for autors, venue and date
 }
 
 .article-tags{
     margin-top: .5rem;      //smaller margin top (was 1.2)
+}
+
+.section-subheading {
+    .article-title {
+        .a{
+            font-size: .5rem;
+        }
+    }
 }
 
 
