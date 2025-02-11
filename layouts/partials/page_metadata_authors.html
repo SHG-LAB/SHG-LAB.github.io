@@ -23,7 +23,7 @@
         {{- if eq $redirect_link "" -}}
           {{delimit $result " "}}
         {{- else -}}
-          <a href="{{$redirect_link}}">{{delimit $result " "}}</a>
+          <a href="{{$redirect_link}}" class="author-highlighted">{{delimit $result " "}}</a>
         {{- end -}}
     </span>
     {{- if isset $.Params "author_notes" -}}
