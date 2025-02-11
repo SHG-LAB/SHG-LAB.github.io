@@ -2,6 +2,11 @@
 #container-publications .media.stream-item {
     margin-bottom: 0;       //removing margin bottom
     align-items: center;    //vertically-align image div
+    .article-title {
+        font-size: 1.0rem;
+        line-height: 1.3rem;
+        // background-color: red;
+    }
 }
 // publications list and each publication page
 .article-metadata{
@@ -13,11 +18,8 @@
 }
 
 .section-subheading {
-    .article-title {
-        .a{
-            font-size: .5rem;
-        }
-    }
+    line-height: 1.5rem;
+    font-size: 128;
 }
 
 
@@ -86,6 +88,10 @@ background: #1d2127 !important;
     width: 1000px;
     margin: 0 auto;    
     }
+}
+
+.author-highlighted {
+    text-decoration: underline;
 }
 
 // #profile-page .article-widget
