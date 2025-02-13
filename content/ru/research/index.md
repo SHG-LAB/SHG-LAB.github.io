@@ -11,17 +11,31 @@ sections:
     id: section-1
     content:
       title: Тематика
-      subtitle: ""
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      subtitle: "Вот таким мы тут занимаемся"
+      text: 
+
       # Display content from the `content/post/` folder
       filters:
         folders:
           - our-research
+      sort_ascending: true
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       # Choose your content listing view - here we use the `showcase` view
-      view: showcase # compact 
+      view:  publications #publications # #card #list #compact  # showcase  masonry
       # For the Showcase view, do you want to flip alternate rows?
-      flip_alt_rows: true
+      # flip_alt_rows: true
+    
+  - block: markdown
+    id: eq
+    content:
+      title: Оборудование 
+      subtitle: Всё, что необходимо для нобелевки
+      text: "- тык
+      - мык"
+
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
 ---
