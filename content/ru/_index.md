@@ -64,6 +64,7 @@ sections:
         folders:
           - publication
         publication_type: 'article'
+      sort_by: 'Date'
     design:
       view: citation
       columns: '1'
