@@ -10,7 +10,7 @@ last_name: Доценко
 superuser: false
 
 # Role/position
-role: 🤠
+role:  <center><img src="https://media.tenor.com/blwK0rdIId8AAAAi/cat-oiiaoiia-cat.gif" alt="Computer man" style="width:48px;height:48px;"><center>  #🤠
 
 # Organizations/Affiliations
 organizations:
