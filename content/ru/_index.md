@@ -32,8 +32,8 @@ sections:
       order: desc
       page_type: post
     design:
-      view: card
-      columns: '1'
+      view: compact #card
+      columns: '2'
   
   - block: markdown
     content:
@@ -57,17 +57,20 @@ sections:
 
   - block: collection
     content:
-      title: Latest Preprints
-      text: ""
+      title: Последние публикации 
+      subtitle: "[Все публикации >>](/ru/publication)"  
+      text: 
       count: 5
       filters:
         folders:
           - publication
-        publication_type: 'article'
+        publication_type: 'article-journal'
       sort_by: 'Date'
     design:
-      view: citation
-      columns: '1'
+      view: list #compact # publications  #  #citation
+      columns: '2'
+  
+
 
   - block: markdown
     content:
