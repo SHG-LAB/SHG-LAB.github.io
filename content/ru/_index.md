@@ -18,8 +18,8 @@ sections:
   
   - block: collection
     content:
-      title: Последние новости
-      subtitle:
+      title: Последние новости 
+      subtitle: "[Все новости >>](/ru/post)"  
       text:
       count: 5
       filters:
@@ -58,7 +58,7 @@ sections:
   - block: collection
     content:
       title: Последние публикации 
-      subtitle: "[Все публикации >>](/ru/publication)"  
+      subtitle: "[Все публикации >>](/ru/publication)"
       text: 
       count: 5
       filters:

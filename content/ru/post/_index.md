@@ -2,7 +2,7 @@
 title: Новости  #Latest News
 
 # Listing view
-view: compact
+view: card #compact
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:
