@@ -1,0 +1,24 @@
+---
+title: Electroinduced and Photoinduced Effects in Optical Second-Harmonic Generation
+  and Hyper-Rayleigh Scattering from Thin Films of Bacteriorhodopsin
+authors:
+- O. A. Aktsipetrov
+- A. A. Fedyanin
+- T. V. Murzina
+- G. P. Borisevich
+- A. A. Kononenko
+date: '1997-04-01'
+publishDate: '2025-03-15T17:19:59.587499Z'
+publication_types:
+- article-journal
+publication: '*Journal of the Optical Society of America B*'
+doi: 10.1364/JOSAB.14.000771
+abstract: The mechanism of optical second-harmonic generation (SHG) in thin solid
+  oriented and nonoriented films of bacteriorhodopsin (bR) is studied. The role of
+  the random spatial inhomogeneity of the quadratic susceptibility in the mechanism
+  of diffuse and depolarized SHG in thin solid bR films is discussed. A hyper-Rayleigh
+  scattering formalism is used for the description of SHG in these films. Electroinduced
+  and photoinduced effects in SHG are detected, and the saturated concentrations of
+  the electroinduced and the photoinduced spectral forms of this type of bR film are
+  estimated. Nondestructive SHG readout of bR-based optical memories is suggested.
+---
