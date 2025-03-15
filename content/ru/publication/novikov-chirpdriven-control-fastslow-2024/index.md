@@ -21,7 +21,4 @@ abstract: Optical applications based on fast and slow light effects force the us
   of chirped pulses in the vicinity of metamaterial zero-transmission regime mediated
   by the ENZ nonlocality. We elucidate that the laser chirp allows one to manipulate
   and enhance the fast–slow light phenomena.
-links:
-- name: URL
-  url: https://opg.optica.org/abstract.cfm?URI=ol-49-7-1668
 ---

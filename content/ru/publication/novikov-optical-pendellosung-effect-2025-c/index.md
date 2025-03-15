@@ -26,6 +26,5 @@ abstract: Intermodal light interference in artificial optical structures has bec
   spectral and angular variations of the light transmission near the Bragg diffraction
   conditions and provide a detailed analysis of the effect.
 links:
-- name: URL
-  url: https://opg.optica.org/abstract.cfm?URI=ol-50-5-1528
+
 ---
