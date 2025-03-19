@@ -4,9 +4,6 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
-    url: tour
-    weight: 10
   - name: Исследования
     url: research
     weight: 15
@@ -16,9 +13,6 @@ main:
   - name: Команда  #People
     url: people
     weight: 30
-  - name: События # Events
-    url: event
-    weight: 40
   - name: Публикации  # Publications
     url: publication
     weight: 50
