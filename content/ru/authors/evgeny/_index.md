@@ -5,6 +5,7 @@ title: Евгений Жабоев
 # Full Name (for SEO)
 first_name: Евгений 
 last_name: Жабоев
+weight: 10
 
 # Is this the primary user of the site?
 superuser: false

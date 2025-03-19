@@ -1,10 +1,11 @@
 ---
 # Display name
-title: Кирилл Смирнов
+title: Никита Попов
 
 # Full Name (for SEO)
-first_name: Кирилл 
-last_name: Смирнов
+first_name: Никита
+last_name: Попов
+weight: 20
 
 # Is this the primary user of the site?
 superuser: false

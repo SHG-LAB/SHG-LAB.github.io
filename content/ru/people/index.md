@@ -7,11 +7,11 @@ type: landing
 sections:
   - block: people
     content:
-      title: Meet the Team
+      title: Состав лаборатории
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Руководитель лаборатории
+          - Руководитель
           - Сотрудники
           - Аспиранты
           - Студенты
@@ -21,7 +21,7 @@ sections:
           # - Administration
           - Visitors
           - Alumni
-      sort_by: Params.last_name
+      sort_by: Params.weight
       sort_ascending: true
     design:
       show_interests: false
