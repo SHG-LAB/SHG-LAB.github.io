@@ -103,6 +103,10 @@ body.dark,
   margin-top: 1rem;
 }
 
+.home-section:nth-of-type(even) {
+  background: #ff00ff;
+}
+
 // #profile-page .article-widget
 // {
 //     display: none;

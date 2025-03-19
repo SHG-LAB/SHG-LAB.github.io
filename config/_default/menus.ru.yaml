@@ -20,11 +20,11 @@ main:
   - name: Студентам  # Publications
     url: for-students
     weight: 60  
-  - name: Учебные курсы  
+  - name: Учебные курсы 
     parent: Студентам
     url: for-students/courses
     weight: 1
-  - name: Курсовые работы  
+  - name: Младшекурсникам  
     parent: Студентам
     url: for-students/my-first-research
     weight: 2
