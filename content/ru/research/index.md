@@ -11,7 +11,7 @@ sections:
     id: section-1
     content:
       title: Тематика
-      subtitle: "Вот таким мы тут занимаемся"
+      # subtitle: "Вот таким мы тут занимаемся"
       text: 
 
       # Display content from the `content/post/` folder
@@ -31,9 +31,12 @@ sections:
     id: eq
     content:
       title: Оборудование 
-      subtitle: Всё, что необходимо для нобелевки
-      text: "- тык
-      - мык"
+      # subtitle: Всё, что необходимо для нобелевки
+      text: "- Двухфотонный литограф\n
+      - Конфокальный микроскоп и спектрометр\n
+      - Спектрометр\n
+      - 
+      "
 
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
