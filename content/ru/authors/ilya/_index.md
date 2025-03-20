@@ -5,6 +5,7 @@ title: Илья Батуев
 # Full Name (for SEO)
 first_name: Илья  
 last_name: Батуев 
+weight: 10
 
 # Is this the primary user of the site?
 superuser: false

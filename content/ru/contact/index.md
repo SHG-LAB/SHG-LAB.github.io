@@ -7,9 +7,8 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Contact
+      # title: Контакты
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
       email: test@example.org
       phone: +7 495 939-36-69
       address:
@@ -22,9 +21,9 @@ sections:
       coordinates:
         latitude: '55.706665'
         longitude: '37.520557'
-      directions: КНО (корпус нелинейной оптики), комната 407
-      office_hours:
-        - 'ПН-ПТ с 11:00 до 19:00'
+      directions: КНО (корпус нелинейной оптики), комната 408
+      # office_hours:
+      #   - 'ПН-ПТ с 11:00 до 19:00'
         
       #appointment_url: 'https://calendly.com'
       #contact_links:
