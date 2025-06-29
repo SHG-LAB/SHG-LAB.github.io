@@ -17,20 +17,23 @@ sections:
   - block: collection
     content:
       title: <h2>Последние новости</h2>
-      subtitle: "[Все новости >>](/ru/post)"
+      subtitle: # "[Все новости >>](/ru/post)"
       text:
-      count: 5
+      count: 3
       filters:
+        folders: 
+          - post
         author: ""
         category: ""
         exclude_featured: false
-        publication_type: ""
+        publication_type: 
         tag: ""
-      offset: 0
-      order: desc
-      page_type: post
+      sort_by: "Date"
+      offset: 
+      # order: desc
+      page_type: 
     design:
-      view: compact #card
+      view: compact #card showcase
       columns: "2"
 
   # - block: markdown
@@ -56,14 +59,15 @@ sections:
   - block: collection
     content:
       title: <h2>Последние публикации</h2>
-      subtitle: "[Все публикации >>](/ru/publication)"
+      subtitle: # "[Все публикации >>](/ru/publication)"
       text:
       count: 3
       filters:
         folders:
           - publication
-        publication_type: "article-journal"
+        #publication_type: 
       sort_by: "Date"
+      page_type: 
     design:
       view: list #compact # publications  #  #citation
       columns: "2"
