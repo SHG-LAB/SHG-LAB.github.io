@@ -10,16 +10,16 @@ name = "my"
   primary_dark = "#3148f6"
 
   # Menu
-  menu_primary = "#eaeaea" # menu background
+  menu_primary = "#eaeaee" # menu background
   menu_text = "#1c2127"
   menu_text_active = "#3148f6"
   menu_title = "#3148f6"
 
   # Home sections
-  home_section_odd = "#eaeaea" 
-  home_section_even = "#f3f3f3"  # darker grey eaeaea lighter fafafa
+  home_section_odd = "#eaeaee" 
+  home_section_even = "#f3f3f7"  # darker grey eaeaea lighter fafafa
 
-  background = "#f3f3f3" 
+  background = "#f3f3f7" 
 
   link = "#2838c6" # light "#2d42ff" # darker  "#1c4b8f"
   link_hover = "#3148f6"

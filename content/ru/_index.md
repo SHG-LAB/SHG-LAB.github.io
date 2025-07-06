@@ -7,16 +7,17 @@ type: landing
 sections:
   - block: hero
     content:
-      title: |
-        Лаборатория нелинейной оптики наноструктур и фотонных кристаллов
+      title: <p align="left"> Лаборатория нелинейной оптики наноструктур и фотонных кристаллов </p>
       image:
         filename: Logo2.gif
-      text: |
-        Основные направления деятельности в лаборатории -- исследования нелинейных и магнитных эффектов в микроструктурах, исследования эффектов в метаматериалах и фотонных кристаллах, а также изготовление микроструктур методом двухфотонной лазерной литографии.
+      text: | 
+        <p align="left"> Основные направления деятельности в лаборатории: исследования нелинейных и магнитных эффектов в микроструктурах, исследования эффектов в метаматериалах и фотонных кристаллах, а также изготовление микроструктур методом двухфотонной лазерной литографии. 
+        
+        <br></p>
 
   - block: collection
     content:
-      title: <h2>Последние новости</h2>
+      title: Последние новости
       subtitle: # "[Все новости >>](/ru/post)"
       text:
       count: 3
@@ -33,8 +34,8 @@ sections:
       # order: desc
       page_type: 
     design:
-      view: compact #card showcase
-      columns: "2"
+      view: compact # publications #compact #card showcase
+      columns: "1"
 
   # - block: markdown
   #   content:
@@ -58,7 +59,7 @@ sections:
 
   - block: collection
     content:
-      title: <h2>Последние публикации</h2>
+      title: Публикации
       subtitle: # "[Все публикации >>](/ru/publication)"
       text:
       count: 3
