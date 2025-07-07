@@ -6,8 +6,7 @@ name = "my"
 [light]
   # Primary
   primary = "#3148f6" # some buttons etc 
-  primary_light = "#e00000"
-  primary_dark = "#3148f6"
+  
 
   # Menu
   menu_primary = "#eaeaee" # menu background
@@ -25,8 +24,21 @@ name = "my"
   link_hover = "#3148f6"
 
 [dark]
-  # Primary
-  primary = "#bbdefb"
 
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
+  primary = "#D2D2EF" # some buttons etc 
+  
+
+  # Menu
+  menu_primary = "#141622" # menu background
+  menu_text = "#A1A2A7"
+  menu_text_active = "#D2D2EF"
+  menu_title = "#D2D2EF"
+
+  # Home sections
+  home_section_odd = "#272935" 
+  home_section_even = "#1D2127"  # darker grey eaeaea lighter fafafa
+
+  background = "#272935" 
+
+  link = "#7B9FED" # light "#2d42ff" # darker  "#1c4b8f"
+  link_hover = "#D2D2EF"
