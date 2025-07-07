@@ -1,3 +1,9 @@
+.hero-media img {
+  width: 70%;
+  height: auto;
+  padding-top: 60px;
+}
+
 // publications list
 #container-publications .media.stream-item {
   margin-bottom: 0; //removing margin bottom
@@ -67,9 +73,9 @@ body.dark,
   background: #1d2127 !important;
 }
 
-.home-section:nth-of-type(even) {
-  background: white !important;
-}
+// .home-section:nth-of-type(even) {
+//   background: initial;  //# rgb(255, 0, 0) !important;
+// }
 
 .dark .home-section:nth-of-type(even) {
   background: #1d2127 !important;
@@ -103,9 +109,14 @@ body.dark,
   margin-top: 1rem;
 }
 
-.home-section:nth-of-type(even) {
-  background: #ff00ff;
-}
+// wtf
+
+// .home-section:nth-of-type(even) {
+//   background: #ff00ff;
+// }
+
+
+
 
 // #profile-page .article-widget
 // {

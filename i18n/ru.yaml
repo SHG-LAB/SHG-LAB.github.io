@@ -88,10 +88,10 @@
   translation: Исходный документ
 
 - id: btn_copy
-  translation: Копия
+  translation: Копировать
 
 - id: btn_copied
-  translation: Copied
+  translation: Скопировано
 
 - id: btn_download
   translation: Скачать
@@ -129,7 +129,7 @@
   translation: Больше выступлений
 
 - id: more_publications
-  translation: Больше публикаций
+  translation: Все публикации
 
 # Contact widget
 

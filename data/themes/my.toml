@@ -1,25 +1,44 @@
 # Theme metadata
-name = "Minimal"
+name = "my"
 
+
+# 1c2127 dark text 
 [light]
   # Primary
-  primary = "#ffff00"
+  primary = "#3148f6" # some buttons etc 
+  
 
   # Menu
-  menu_primary = "#00ff00"
-  menu_text = "#0000ff"
-  menu_text_active = "#2962ff"
-  menu_title = "#2b2b2b"
+  menu_primary = "#eaeaee" # menu background
+  menu_text = "#1c2127"
+  menu_text_active = "#3148f6"
+  menu_title = "#3148f6"
 
   # Home sections
-  home_section_odd = "rgb(0, 255, 255)"
-  home_section_even = "rgb(0, 255, 255)"
+  home_section_odd = "#eaeaee" 
+  home_section_even = "#f3f3f7"  # darker grey eaeaea lighter fafafa
 
-  background = "#ff0000"
+  background = "#f3f3f7" 
+
+  link = "#2838c6" # light "#2d42ff" # darker  "#1c4b8f"
+  link_hover = "#3148f6"
 
 [dark]
-  # Primary
-  primary = "#bbdefb"
 
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
+  primary = "#D2D2EF" # some buttons etc 
+  
+
+  # Menu
+  menu_primary = "#141622" # menu background
+  menu_text = "#A1A2A7"
+  menu_text_active = "#D2D2EF"
+  menu_title = "#D2D2EF"
+
+  # Home sections
+  home_section_odd = "#272935" 
+  home_section_even = "#1D2127"  # darker grey eaeaea lighter fafafa
+
+  background = "#272935" 
+
+  link = "#7B9FED" # light "#2d42ff" # darker  "#1c4b8f"
+  link_hover = "#D2D2EF"

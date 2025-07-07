@@ -27,4 +27,25 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
+
+      
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text:
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: Logo2.gif
+          filters:
+            brightness: 1
+          parallax: true
+          position: center
+          size: actual # contain #cover
+          text_color_light: true
+      spacing:
+        padding: ['30px', '0', '30px', '0']
+      css_class: fullscreen
 ---
