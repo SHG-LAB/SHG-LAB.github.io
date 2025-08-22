@@ -1,8 +1,100 @@
+// consistent background colors for team seaction
+// .wg-people {
+//   background-color: $sta-home-section-even ;
+// }
+
+// .dark .wg-people {
+//   background-color: $sta-dark-home-section-even ;
+// }
+
+
+
+
+// author highlighted in publications
+.article-metadata .author-highlighted {
+    font-weight: 500
+}
+
+
+// forms on publications page
+.form-control, .form-control:focus{
+  background: #fdfdfd !important;
+}
+
+.dark .form-control, .dark .form-control:focus{
+  background: $sta-dark-home-section-odd !important;
+}
+
+// underline active menu item
+.navbar-nav .active { 
+  text-decoration: underline; 
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.5rem;
+}
+
+
+
+// hero image settings
 .hero-media img {
   width: 70%;
   height: auto;
   padding-top: 60px;
 }
+
+.hero-title {
+  font-size: 2rem;
+}
+
+// home section padding in desktop and tablet view
+.home-section {
+  padding: 2em 1.5em !important; // default (desktop/tablet)
+
+  @media (max-width: 768px) {
+    padding: 2em 0em !important; // mobile view
+  }
+}
+
+
+// #theme-icon {
+//   transition: transform 0.3s ease;
+// }
+
+// body.dark #theme-icon {
+//   color: $sta-dark-menu-text;
+// }
+
+// card view image
+.img-hover-zoom {
+  max-height: 200px;
+  width: auto; // maintain aspect ratio
+  margin: 0 auto; // center it if needed
+
+  // Optional: Set a fixed height with object-fit if you want cropping
+  // height: 1000px;
+  overflow: hidden; // hide overflow if needed
+}
+
+// card view light theme
+.card-simple {
+  background: #fbfbfb;
+}
+// card view maint text
+a.summary-link {
+  color: #313131;
+}
+.dark a.summary-link {
+  color: #f2f4ff;
+}
+
+// card view title
+.article-title a {
+  color: #313131; 
+}
+.dark .article-title a {
+  color: #f2f4ff; 
+}
+////////////
+
 
 // publications list
 #container-publications .media.stream-item {
@@ -77,43 +169,31 @@ body.dark,
 //   background: initial;  //# rgb(255, 0, 0) !important;
 // }
 
-.dark .home-section:nth-of-type(even) {
-  background: #1d2127 !important;
-}
-
-.home-section {
-  padding: 2em 0 !important;
-}
+// .dark .home-section:nth-of-type(even) {
+//   background: #1d2127 !important;
+// }
 
 .gallery-grid {
   padding-top: 2em !important;
 }
 
-@media only screen and (min-width: 1001px) {
-  #profile-page {
-    width: 1000px;
-    margin: 0 auto;
-  }
-}
+// @media only screen and (min-width: 1001px) {
+//   #profile-page {
+//     width: 1000px;
+//     margin: 0 auto;
+//   }
+// }
 
 .author-highlighted {
   text-decoration: underline;
 }
 
-.hero-title {
-  font-size: 2rem;
-}
 
 .hero-lead {
   font-size: 1rem;
   margin-top: 1rem;
 }
 
-// wtf
-
-// .home-section:nth-of-type(even) {
-//   background: #ff00ff;
-// }
 
 
 

@@ -9,14 +9,18 @@ sections:
     content:
       title: <br><p style="text-align:left; font-weight:500;"> Лаборатория нелинейной оптики наноструктур и фотонных кристаллов </p>
       image:
-        filename: coders.jpg
+        filename: lab_cover_test.jpg
+        filters:
+            brightness: 0.25
+            opacity: 0.5
       text: | 
         <br>
         <p style="text-align: left; font-weight: 300;"> Мы исследуем (линейные и нелинейные) оптические и магнитные эффекты в микроструктурах, метаматериалах и фотонных кристаллах, а также изготовляем микроструктуры методом двухфотонной лазерной литографии. </p> 
         <br>
-        <p style="text-align: left; font-weight: 300;"> <a href="https://www.phys.msu.ru" target="_blank">Физический факультет МГУ</a> <br>
-        <a href="https://quantum.phys.msu.ru/ru" target="_blank">Кафедра квантовой электроники</a>
-        <br><br>
+        <p style="text-align: left; font-weight: 300; text-decoration: underline none;  text-underline-offset: 0.25rem;"> 
+          <a href="https://www.phys.msu.ru" target="_blank" style="color: #d1d3d7;">Физический факультет МГУ</a> <br>
+          <a href="https://quantum.phys.msu.ru/ru"  target="_blank" style="color: #d1d3d7;">Кафедра квантовой электроники</a>
+          <br><br>
         </p>
     design:
       # Choose an optional background color, gradient, image, or video
@@ -25,7 +29,7 @@ sections:
           ### Add your image background to `assets/media/`.
           filename:  gr3__.jpg #lab_cover_test.jpg
           filters:
-            brightness: 0.7
+            brightness: 0.8
           parallax: true
           
          text_color_light: true
@@ -52,8 +56,8 @@ sections:
       # order: desc
       page_type: 
     design:
-      view: compact # publications #compact #card showcase
-      columns: "1"
+      view: card # publications #compact #card showcase
+      columns: "2"
 
   # - block: markdown
   #   content:

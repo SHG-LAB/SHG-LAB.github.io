@@ -7,11 +7,11 @@ subtitle: Курсовые работы выполняются под руков
 show_date: False
 draft: false # если true, то не показывается, но все равно можно попасть по ссылке
 profile: false
-share: false
+share: true
 # Это баннер на открытой странице новости
-# banner:
-#     caption: 'Это подпись к баннеру'
-#     image: 'coders.jpg' # тут нужно написать то, что идет после assets/media/
+banner:
+    caption: # 'Это подпись к баннеру'
+    image: lab_cover_test.jpg # тут нужно написать то, что идет после assets/media/
 ---
 ### [Наноплазмоника](/ru/our-research/plasmonics)
 

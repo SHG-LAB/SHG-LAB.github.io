@@ -30,10 +30,10 @@
   translation: мин. для прочтения
 
 - id: previous
-  translation: Предыдущий
+  translation: Предыдущий пост
 
 - id: next
-  translation: Следующий
+  translation: Следующий пост
 
 - id: figure
   translation: 'Схема № %d:'
