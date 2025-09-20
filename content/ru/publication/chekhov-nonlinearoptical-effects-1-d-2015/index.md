@@ -11,4 +11,8 @@ publication_types:
 - paper-conference
 publication: '*International Symposium Spin Waves 2015 (SW2015), St.petersburg, Russia,
   7-13 June 2015, Book of Abstracts*'
+tags:
+  - Plasmonics
+  - Magnetooptics
+  - Nonlinear Optics
 ---

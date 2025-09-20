@@ -26,4 +26,7 @@ abstract: The magnetic properties of the surface layer of an epitaxial bismuth-d
   force microscopy (MFM). A series of MFM images of the film taken in an in-plane
   magnetic field varying from –400 to 400 Oe demonstrates quasi-static nucleation
   of closure domains periodically located along stripe domains.
+tags:
+- Magnetism
+- Microscopy
 ---

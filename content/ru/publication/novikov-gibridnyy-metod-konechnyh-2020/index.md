@@ -10,4 +10,6 @@ publication_types:
 - paper-conference
 publication: '*IX Международная Конференция По Фотонике И Информационной Оптике Сборник
   Научных Трудов. ISBN 978-5-7262-2648-4*'
+tags:
+- Photonic Crystals
 ---

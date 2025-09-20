@@ -24,4 +24,8 @@ abstract: The interest in hyperbolic metamaterials is fueled by fascinating opti
   These effects are attributed to resonant enhancement of the electric field of the
   light wave and transition from the elliptical to hyperbolic dispersion law in hyperbolic
   metamaterials near the ENZ point.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
+  - Nonlinear Optics
 ---

@@ -19,4 +19,7 @@ abstract: Compact planar photonic elements serving for efficient control over th
   coupling of the plasmonic unit cells is the heart of the revealed resonant 38% circular
   dichroism effect. The circular dichroism enhancement of the considered structure
   is improved using the deep-learning-assisted optimization of the metasurface design.
+tags:
+- Plasmonics
+- Metamaterials
 ---

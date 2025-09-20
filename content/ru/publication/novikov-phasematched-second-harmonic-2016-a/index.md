@@ -15,4 +15,7 @@ doi: 10.1109/LO.2016.7549866
 abstract: We experimentally observe phase-matched second harmonic generation under
   Bragg diffraction in the Laue geometry in one-dimensional porous silica based photonic
   crystals infiltrated by a ferroelectric salt.
+tags:
+- Photonic Crystals
+- Nonlinear Optics
 ---

@@ -11,4 +11,6 @@ publication_types:
 - paper-conference
 publication: '*Тезисы Докладов Международной Молодёжной Конференции Физика.спб/2017,
   ISBN 978-5-00071-904-6*'
+tags:
+- Photonic Crystals
 ---

@@ -24,4 +24,7 @@ abstract: Azimuthal anisotropy of Stokes parameters of the second harmonic gener
   SHG components is observed. Finite-difference time-domain calculations prove that
   the observed effects are due to the anisotropic enhancement of the fundamental radiation
   within the G-shaped structures. (C) 2011 Optical Society of America
+tags:
+- Metamaterials
+- Nonlinear Optics
 ---

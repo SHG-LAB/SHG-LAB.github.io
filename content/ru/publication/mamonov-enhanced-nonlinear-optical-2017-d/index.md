@@ -27,4 +27,7 @@ abstract: We discuss photonic effects in arrays of frustum-shaped organic micros
   effects are governed by high second-order nonlinearity of the dye damped by a strong
   absorption. FDTD calculations confirm that the mechanism of the light localization
   inside organic frustums can be in the form of whispering gallery modes excitation.
+tags:
+- Microstructures
+- Nonlinear Optics
 ---

@@ -26,4 +26,8 @@ abstract: Hyperbolic metamaterials based on the ordered arrays of metal nanorods
   effect is applied for the giant enhancement of the Faraday effect in a continuous
   ferromagnetic film staying in contact with hyperbolic material. These findings open
   a path for the design of polarization state control by using hyperbolic metamaterials.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
+  - Magnetooptics
 ---

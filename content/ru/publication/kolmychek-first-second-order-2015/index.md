@@ -31,4 +31,7 @@ abstract: Linear and nonlinear optical properties of a thin planar CoFeâˆ•Al2O3â
   contributions. Relative values of the linear and quadratic in magnetization components
   of the SHG polarization are estimated for the trilayer structure and for a reference
   homogeneous ferromagnetic film
+tags:
+  - Nonlinear Optics
+  - Magnetooptics
 ---

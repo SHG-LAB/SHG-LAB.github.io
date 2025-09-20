@@ -22,4 +22,7 @@ abstract: Influence of chirality on the optical second harmonic generated from p
   manifests itself via different efficiency of left and right circularly polarized
   second harmonic that is observed for the samples of different handedness. This difference
   allows to distinguish between the two enantiomers.
+tags:
+- Metamaterials
+- Nonlinear Optics
 ---

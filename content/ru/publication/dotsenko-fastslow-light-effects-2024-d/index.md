@@ -17,4 +17,7 @@ abstract: Experimental and numerical studies of fast and slow light effects unde
   the propagation of chirped femtosecond laser pulses in epsilon-near-zero metamaterials
   based on the array of metal nanorods are carried out. We show that the chirp brings
   about additional control over the fast and slow light regimes.
+tags:
+- Plasmonics
+- Hyperbolic metamaterials
 ---

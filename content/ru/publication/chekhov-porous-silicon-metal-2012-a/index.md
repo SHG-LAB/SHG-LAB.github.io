@@ -15,4 +15,6 @@ abstract: Composite solar cells formed by a crystalline Si with a thin mesoporou
   silicon layer infiltrated by plasmonic nanoparticles are studied. Measurements show
   an increase of quantum efficiency as a result of local field enhancement near nanoparticles
   due to plasmon resonance.
+tags:
+- Metamaterials
 ---

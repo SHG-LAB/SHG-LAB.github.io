@@ -20,4 +20,6 @@ abstract: The structure of magnetic domains is an exciting research object that 
   garnet/air and garnet/substrate interfaces. As an efficient extension of the second
   harmonic generation microscopy, we suggest and demonstrate the possibilities of
   the third harmonic generation one, which provides higher resolution of the method.
+tags:
+  - Microscopy
 ---

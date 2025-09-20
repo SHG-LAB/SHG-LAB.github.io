@@ -24,4 +24,7 @@ abstract: The ability to manipulate the frequency of light is a cornerstone of a
   dynamical light diffraction leads to a nonmonotonic dependence of the frequency
   up-conversion efficiency with respect to the laser pulse duration, thus allowing
   to increase the second harmonic power by tuning the pulse duration.
+tags:
+- Photonic Crystals
+- Nonlinear Optics
 ---

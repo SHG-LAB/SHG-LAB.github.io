@@ -50,4 +50,6 @@ abstract: 'The Borrmann effect is the fundamental effect in X-ray physics. It is
   maxima and a strong angular narrowing of maxima for definite wavelengths. Interrelation
   of the observed effects with degeneracies of the PhC band structure is confirmed
   by theoretical calculations.'
+tags:
+- Photonic Crystals
 ---

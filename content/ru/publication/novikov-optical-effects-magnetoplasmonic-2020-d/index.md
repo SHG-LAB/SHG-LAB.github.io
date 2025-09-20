@@ -21,4 +21,7 @@ abstract: Properties of one-dimensional spatially periodic metal structures form
   can be controlled by the geometry of the experiment. The magnetooptical Kerr effect
   modulation, which is absent in the case of a nonprofiled gold/permalloy bifilm,
   is observed in the spectral vicinity of the plasmon resonance.
+tags:
+  - Plasmonics
+  - Magnetooptics
 ---

@@ -1,6 +1,5 @@
 ---
-title: Surface plasmon-mediated nanoscale localization of laser-driven sub-terahertz
-  spin dynamics in magnetic dielectrics
+title: Surface plasmon-mediated nanoscale localization of laser-driven sub-terahertz spin dynamics in magnetic dielectrics
 authors:
 - Alexander L. Chekhov
 - Stognij Alexander I
@@ -25,4 +24,7 @@ abstract: We report spatial localization of the effective magnetic field generat
   at the surface plasmon resonance within a 100 nm layer of a dielectric garnet. Our
   findings broaden the horizons of ultrafast spin-plasmonics and open pathways toward
   nonthermal opto-magnetic recording on the nanoscale.
+tags:
+  - Plasmonics
+  - Magnetism
 ---

@@ -25,4 +25,7 @@ abstract: Fabrication of active fluorescent microstructures with given parameter
   The nonlinear optical microscopy study has shown that the spatial distribution of
   scattered fluorescence in microcavity structures based on the polymer with the dye
   corresponds to the excitation of cavity modes or whispering gallery modes.
+
+tags:
+- Lithography
 ---

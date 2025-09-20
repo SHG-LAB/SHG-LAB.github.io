@@ -31,4 +31,7 @@ abstract: Micro- and nanostructuring of optical media is the cornerstone for a w
   hypercrystals formed by ridges of hyperbolic metamaterial can support excitation
   of the Dyakonov plasmons, which merge the Dyakonov waves supported by the interface
   of birefringent crystal and surface plasmon polaritons in metals.
+tags:
+  - Photonics Crystals
+  - Hyperbolic metamaterials
 ---

@@ -28,4 +28,6 @@ abstract: We survey our recent results on the observation and studies of the eff
   the experimental conditions for the total spatial switching of the output radiation
   between the transmitted and diffracted directions. All described effects are of
   high interest for the control over the light propagation based on PhC structures.
+tags:
+- Photonic Crystals
 ---

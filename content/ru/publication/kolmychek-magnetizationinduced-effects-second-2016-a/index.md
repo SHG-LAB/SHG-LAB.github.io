@@ -12,4 +12,7 @@ publication_types:
 - article-journal
 publication: '*Optics Letters*'
 doi: 10.1364/OL.41.005446
+tags:
+  - Plasmonics
+  - Nonlinear Optics
 ---

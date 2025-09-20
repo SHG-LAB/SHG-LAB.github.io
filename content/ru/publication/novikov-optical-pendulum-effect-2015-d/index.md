@@ -23,4 +23,6 @@ abstract: We present the realization of the multiperiodic optical pendulum effec
   of the sample or the intensity of the additional laser beam illuminating the crystal
   are changed. We show that in our PhC structures, the spectral period of the pendulum
   effect is down to 5 nm, while the thermal period is about 10 °C.
+tags:
+- Photonic Crystals
 ---

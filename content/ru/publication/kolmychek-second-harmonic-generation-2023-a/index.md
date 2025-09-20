@@ -27,4 +27,8 @@ abstract: Composite magnetic nanostructures are a subject of high research inter
   Kerr effect (MOKE) and interface-sensitive magnetization-induced second harmonic
   generation (SHG), indicating the diversity of the magnetic effects at interfaces
   compared to the bulk of the films.
+tags:
+- Magnetism
+- Nonlinear Optics
+- Magnetooptics
 ---

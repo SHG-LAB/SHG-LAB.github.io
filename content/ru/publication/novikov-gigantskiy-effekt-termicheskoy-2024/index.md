@@ -14,4 +14,7 @@ publication_types:
 - paper-conference
 publication: '*XIII МЕЖДУНАРОДНАЯ КОНФЕРЕНЦИЯ ПО ФОТОНИКЕ И ИНФОРМАЦИОННОЙ ОПТИКЕ:
   Сборник Научных Трудов*'
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
 ---

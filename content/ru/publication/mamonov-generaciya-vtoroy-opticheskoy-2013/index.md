@@ -11,4 +11,7 @@ publication_types:
 - article-journal
 publication: '*Известия Российской Академии Наук. Серия Физическая*'
 doi: 10.7868/S0367676513010171
+tags:
+- Microstructures
+- Nonlinear Optics
 ---

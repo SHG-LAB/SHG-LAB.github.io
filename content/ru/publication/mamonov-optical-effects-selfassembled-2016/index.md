@@ -14,4 +14,6 @@ publishDate: '2025-03-15T18:26:11.894914Z'
 publication_types:
 - article-journal
 publication: '*Журнал Прикладной Спектроскопии*'
+tags:
+- Microstructures
 ---

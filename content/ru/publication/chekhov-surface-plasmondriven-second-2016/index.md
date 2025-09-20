@@ -14,4 +14,7 @@ publication_types:
 - article-journal
 publication: '*Physical Review B*'
 doi: 10.1103/PhysRevB.93.161405
+tags:
+- Plasmonics
+- Nonlinear Optics
 ---

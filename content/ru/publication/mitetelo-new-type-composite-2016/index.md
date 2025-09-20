@@ -15,4 +15,7 @@ publication: '*Book of Abstracts of the 17th International Conference flqqlaser 
 abstract: We experimentally observe effects of second harmonic generation, nonlinear
   absorbtion in porous quartz with metallic nanoparticles in order to find a possibility
   to make a new device for SERS-experiments.
+tags:
+- Plasmonics
+- Nonlinear Optics
 ---

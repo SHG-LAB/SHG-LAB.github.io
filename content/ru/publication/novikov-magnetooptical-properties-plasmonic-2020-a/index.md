@@ -22,4 +22,8 @@ abstract: The results of the experimental studies and numerical simulation of op
   of magneto-optical effects in the structures in the spectral vicinity of these points
   are consistent with the simulation results and open up novel opportunities for magnetic-field-assisted
   light manipulation.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
+  - Magnetooptics
 ---

@@ -23,4 +23,7 @@ abstract: We experimentally and numerically revealed a salient thermal effect in
   of the thermal sensitivity of the transmission of this ENZ structure results from
   its nonlocal optical response giving rise to the zero-transmission effect, control
   over which is at the heart of our approach.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
 ---

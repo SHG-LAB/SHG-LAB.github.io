@@ -11,4 +11,6 @@ publication_types:
 - paper-conference
 publication: '*Vi Международная Конференция По Фотонике И Информационной Оптике. Сборник
   Научных Трудов*'
+tags:
+- Photonic Crystals
 ---

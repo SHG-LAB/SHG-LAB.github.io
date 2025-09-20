@@ -25,4 +25,7 @@ abstract: Magnetic field induced effects in the second-harmonic generation in a 
   odd in magnetization contribution is experimentally observed in the intensity of
   the second harmonic in the longitudinal Kerr effect geometry, although it is forbidden
   by symmetry for the surfaces of uniformly magnetized structures.
+tags:
+- Nonlinear Optics
+- Magnetooptics
 ---

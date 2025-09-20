@@ -29,4 +29,7 @@ abstract: Hyperbolic metamaterials (HMM) based on multilayered metal/dielectric 
   of the MO polarization plane rotation initiated by Ni segments followed by the light
   propagation in a strongly birefringent HMM. This stays in agreement with the phenomenological
   description and relevant numerical calculations.
+tags:
+- Plasmonics
+- Hyperbolic metamaterials
 ---

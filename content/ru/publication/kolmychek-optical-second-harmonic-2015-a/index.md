@@ -20,4 +20,10 @@ abstract: The effects of inhomogeneous magnetization on optical second harmonic 
   SHG intensity for both types of structures reveal a number of distinct peculiarities
   associated with additional SHG mechanisms attributed to inhomogeneous magnetic state
   of the nanostructures.
+tags:
+- Nonlinear Optics
+- Magnetism
+- Metamaterials
+- Plasmonics
+
 ---

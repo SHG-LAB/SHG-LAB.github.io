@@ -13,4 +13,7 @@ doi: 10.1364/FIO.2020.JTh4B.11
 abstract: Resonant enhancement of light power emitted by dipoles located inside silver
   nanorod-based hyperbolic metamaterial near its interface is revealed at epsilon-near-zero
   regime of metamaterial. Enhancement is accompanied by peculiar radiation pattern.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
 ---

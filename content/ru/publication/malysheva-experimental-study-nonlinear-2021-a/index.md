@@ -21,4 +21,8 @@ abstract: Nanophotonics is a rapidly developing branch of physics that studies l
   nonlinear absorbtion measurements in HMMs based on ordered arrays of silver nanorods.
   The main finding consists in the spectral vicinity of Epsilon-Near-Zero and Epsilon-Near-Pole
   features.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
+  - Nonlinear Optics
 ---

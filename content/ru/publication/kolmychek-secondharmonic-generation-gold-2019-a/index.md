@@ -19,4 +19,7 @@ abstract: Anisotropic metal nanostructures reveal unique optical properties prov
   susceptibility components, which are found to be spectrally sensitive. High values
   of circular dichroism in the second-harmonic generation response up to 70% are observed
   in comma-like nanostructures.
+tags:
+- Nonlinear Optics
+- Metamaterials
 ---

@@ -14,4 +14,6 @@ doi: 10.1364/FIO.2018.JTu2A.49
 abstract: Phase-matched second harmonic generation at temporal laser pulse-splitting
   effect in one-dimensional photonic crystals under the Bragg diffraction in the Laue
   geometry is studied experimentally and theoretically involving supercomputer resources.
+tags:
+- Photonic Crystals
 ---

@@ -12,4 +12,7 @@ publication_types:
 - article-journal
 publication: '*Письма В dqжурнал Экспериментальной И Теоретической Физикиdq*'
 doi: 10.1134/S0370274X18170046
+tags:
+ - Nonlinear Optics
+ - Plasmonics
 ---

@@ -17,4 +17,6 @@ publication_types:
 - paper-conference
 publication: '*SPIE Proceedings*'
 doi: 10.1117/12.910576
+tags:
+- Photonic Crystals
 ---

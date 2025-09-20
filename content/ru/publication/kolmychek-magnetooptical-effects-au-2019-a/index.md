@@ -18,4 +18,8 @@ abstract: The results of synthesis and experimental study of two types of nanoco
   and epsilon-near-pole points is shown. A significant modulation and enhancement
   of the alternating magneto-optical effects are observed in the spectral vicinity
   of these points
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
+  - Magnetooptics
 ---

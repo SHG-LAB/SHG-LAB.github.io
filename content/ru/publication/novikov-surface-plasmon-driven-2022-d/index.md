@@ -26,4 +26,8 @@ abstract: Plasmonic crystals are an important backbone of modern photonics offer
   permalloy films. We demonstrate an extra way for the control over the magneto-optical
   effects in the MPC via the magnetic anisotropy of corrugated ferromagnetic film
   in the structure of the MPC.
+tags:
+  - Plasmonics
+  - Nonlinear Optics
+  - Magnetooptics
 ---

@@ -21,4 +21,6 @@ abstract: Organic microstructures are well known for their resonator properties,
   TPF in the spectral range from 530 ÷ 640 nm demonstrated a quality factor of approximately
   102 for spheres that were several microns in diameter. The power dependence of the
   TPF intensity proved the second order nature of the interaction process involved.
+tags:
+- Microstructures
 ---

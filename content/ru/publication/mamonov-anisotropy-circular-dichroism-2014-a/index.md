@@ -22,4 +22,8 @@ abstract: Circular dichroism in optical second harmonic generation (CD-SHG) is s
   theCD effect on the angle of incidence of the fundamental radiation. We show that
   both dipole and higher order multipole components of the second order susceptibility
   are responsible for theCD response from G-shaped nanostructures.
+tags:
+- Nonlinear Optics
+- Metamaterials
+
 ---

@@ -26,4 +26,7 @@ abstract: Arrays of metal nanostructures have attracted much interest due to the
   in nanoparticles is rather sensitive to the polarization of the incident laser beam,
   the visibility of the nanostructures in the nonlinear microscopy images being the
   highest for the linear polarization of the laser beam.
+tags:
+- Microstructures
+- Nonlinear Optics
 ---

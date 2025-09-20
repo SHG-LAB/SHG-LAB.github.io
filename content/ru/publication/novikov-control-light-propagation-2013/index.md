@@ -14,4 +14,6 @@ publishDate: '2025-03-15T18:26:12.170777Z'
 publication_types:
 - paper-conference
 publication: '*ICONO-LAT (moscow, 2013). P. IWS24*'
+tags:
+- Photonic Crystals
 ---

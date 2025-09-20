@@ -30,4 +30,7 @@ abstract: We implemented a Microbubble Resonator (MBRs) as an opto-thermal trans
   of extremely small samples in the context of medical diagnosis from whole biological
   samples, quality controls for food safety or chemical production processes, and,
   in general, for the measurement of absorption in opaque mediums.
+
+tags:
+- Microstructures
 ---

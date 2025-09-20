@@ -9,4 +9,9 @@ publication_types:
 - article-journal
 publication: '*Physical Review B*'
 doi: 10.1103/physrevb.109.024411
+tags:
+- Nonlinear Optics
+- Magnetooptics
+- Magnetism
+
 ---

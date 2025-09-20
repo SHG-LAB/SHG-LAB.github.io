@@ -13,4 +13,8 @@ publication_types:
 - paper-conference
 publication: '*CONFERENCE ABSTRACTS International Student Conference “science and
   Progress”*'
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
+  - Nonlinear Optics
 ---

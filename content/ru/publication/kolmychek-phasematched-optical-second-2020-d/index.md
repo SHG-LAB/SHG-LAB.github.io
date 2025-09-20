@@ -23,4 +23,8 @@ abstract: Artificial hyperbolic metamaterials (HMM) are perspective for the nonl
   wavelength, and an increase in the pump field in the epsilon-near-zero (ENZ) spectral
   range. We predict a strong increase in the SHG efficiency for metamaterials with
   the ENZ resonance at the second harmonic frequency.
+tags:
+- Plasmonics
+- Hyperbolic metamaterials
+- Nonlinear Optics
 ---

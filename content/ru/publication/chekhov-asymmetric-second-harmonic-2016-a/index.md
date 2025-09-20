@@ -17,4 +17,7 @@ abstract: Strong angular asymmetry of second harmonic generation (SHG) is observ
   in an anisotropic plasmonic crystal. The asymmetry is enhanced up to 95% by the
   surface plasmon polariton (SPP) excitation at the anisotropic interface. The SHG
   output is shown to be sensitive to the SPP propagation direction.
+tags:
+  - Plasmonics
+  - Magnetooptics
 ---

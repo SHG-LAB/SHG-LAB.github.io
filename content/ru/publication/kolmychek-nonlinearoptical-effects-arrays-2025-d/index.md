@@ -26,4 +26,8 @@ abstract: Nonlinear-optical effects in magnetic composite nanostructures are of 
   efficiency of the optical second harmonic generation as well as a strong modification
   of the magnetooptical response of this metasurface as compared to the pure garnet
   film. Numerical modelling of the local electromagnetic field confirms these findings.
+tags:
+  - Plasmonics
+  - Nonlinear Optics
+  - Magnetooptics
 ---

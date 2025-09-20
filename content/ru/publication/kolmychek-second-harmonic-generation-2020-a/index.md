@@ -21,4 +21,7 @@ abstract: Specific features of optical second harmonic (SH) generation in arrays
   symmetry of the array of nanoholes in the formation of the SH response is revealed,
   which determines the azimuthal dependence of both the intensity of the second-order
   optical signal and the SH circular dichroism.
+tags:
+- Nonlinear Optics
+- Metamaterials
 ---

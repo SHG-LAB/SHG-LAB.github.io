@@ -27,4 +27,7 @@ abstract: Recent technological achievements provide unique possibilities for the
   In this talk we will focus mostly on the recent results on the linear and nonlinear
   optical effects in planar arrays of chiral nanostructures with the shape of a flat
   spiral (G-shaped nanostructures).
+tags:
+- Nonlinear Optics
+- Metamaterials
 ---

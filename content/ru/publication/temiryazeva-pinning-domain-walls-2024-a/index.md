@@ -33,4 +33,7 @@ abstract: Rare-earth iron garnet epitaxial films famous for their unique magneti
   of the bulk stripe domains. On the other hand, we observed that the domain structure
   in the metallic pattern is governed by the domain structure of the garnet placed
   beneath it.
+tags:
+  - Magnetism
+  - Magnetooptics
 ---

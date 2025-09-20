@@ -10,4 +10,7 @@ publication_types:
 - article-journal
 publication: '*Proceedings of SPIE The International Society for Optical Engineering*'
 doi: 10.1117/12.2555316
+tags:
+- Photonic Crystals
+- Hyperbolic metamaterials
 ---

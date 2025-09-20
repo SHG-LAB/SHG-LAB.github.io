@@ -28,4 +28,7 @@ abstract: Search for new types of efficient magnetoplasmonic structures that com
   magneto-optical properties of opal/Co heterostructures show that they can be treated
   as functional self-assembled magnetoplasmonic crystals with resonantly enhanced
   and controllable MO effect.
+tags:
+  - Plasmonics
+  - Magnetooptics
 ---

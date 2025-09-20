@@ -24,4 +24,9 @@ abstract: Recent studies of optical, magneto-optical, and nonlinear optical effe
   metamaterials in the spectral vicinity of nearly zero effective permittivity is
   demonstrated. Effects of fast and slow light in the interaction of ultrashort laser
   pulses with hyperbolic metamaterials are experimentally revealed.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
+  - Magnetooptics
+  - Nonlinear Optics
 ---

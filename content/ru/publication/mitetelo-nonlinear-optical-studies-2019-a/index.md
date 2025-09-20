@@ -19,4 +19,7 @@ doi: 10.1364/FIO.2019.JTu3A.84
 abstract: We study multiphoton processes in optical active organic microrods and microspheres
   made by self-assembly technique which are perspective for possible applications
   as active waveguides and whispering gallery mode microresonators.
+tags:
+- Microstructures
+- Nonlinear Optics
 ---

@@ -22,4 +22,7 @@ abstract: The recent surge of optics of hyperbolic metamaterials (HMMs) has been
   of HMM and related phase singularities caused by the destructive interference of
   the main optical wave and the additional wave mediated by the spatial dispersion
   of light in the HMMs.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
 ---

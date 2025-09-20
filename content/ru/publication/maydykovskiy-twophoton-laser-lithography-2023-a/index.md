@@ -26,4 +26,7 @@ abstract: The development and optimization of methods for creating functional el
   of ring microcavities and optical waveguides with prism input/output adapters located
   above a substrate. Optical losses upon the coupling of 405-nm radiation into a waveguide
   using a printed prism adapter was no more than 1.25 dB.
+
+tags:
+- Lithography
 ---

@@ -21,4 +21,7 @@ abstract: The films containing core (shell) γ-Fe2O3 (Au) nanoparticles that pos
   harmonic generation shows that the ratio of the magnetic to nonmagnetic components
   of the hyperpolarizability of a single nanoparticle, γM/γ0 ~ 0.4 in the field of
   about 3 kOe.
+tags:
+- Plasmonics
+- Nonlinear Optics
 ---

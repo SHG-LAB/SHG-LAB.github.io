@@ -18,4 +18,6 @@ abstract: We present the experimental observation of the optical Borrmann effect
   the Bragg diffraction condition, which is a manifestation of the Borrmann effect.
   The observed effects along with their polarization sensitivity are confirmed by
   numerical calculations.
+tags:
+- Photonic Crystals
 ---

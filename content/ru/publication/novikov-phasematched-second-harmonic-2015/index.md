@@ -13,4 +13,7 @@ publication_types:
 publication: '*In Frontiers in Optics 2015, OSA Technical Digest (online) (optical
   Society of America)*'
 doi: 10.1364/FIO.2015.FM1F.3
+tags:
+- Photonic Crystals
+- Nonlinear Optics
 ---

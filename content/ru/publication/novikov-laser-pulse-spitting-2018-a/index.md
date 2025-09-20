@@ -11,4 +11,7 @@ publication_types:
 - paper-conference
 publication: '*2018 International Conference Laser Optics (ICLO)*'
 doi: 10.1109/LO.2018.8435578
+tags:
+- Photonic Crystals
+- Nonlinear Optics
 ---

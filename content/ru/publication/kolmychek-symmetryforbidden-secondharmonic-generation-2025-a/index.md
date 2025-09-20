@@ -28,4 +28,8 @@ abstract: Interaction of the laser radiation with magnetic nanostructures contin
   magnetization scheme. This magnetization-dynamics-induced SHG contribution is shown
   to be anisotropic, sensitive to the angle of incidence of the probe beam, and is
   the largest for the CoPt films due to the maximum Gilbert damping constant.
+  
+tags:
+- Nonlinear Optics
+- Magnetooptics
 ---

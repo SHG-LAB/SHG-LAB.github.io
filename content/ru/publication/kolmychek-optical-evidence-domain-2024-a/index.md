@@ -26,4 +26,6 @@ abstract: Control over the magnetic domain structure of garnet films is an impor
   Kerr effect of the composite structure. We assert that the key effect here is the
   interaction of the residual magnetic moments of Co particles with thesurface closure
   domains.
+tags:
+- Magnetism
 ---

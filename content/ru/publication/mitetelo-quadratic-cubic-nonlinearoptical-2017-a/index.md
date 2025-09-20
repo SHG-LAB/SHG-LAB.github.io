@@ -25,4 +25,7 @@ abstract: Optical and nonlinear-optical properties of microstructures of differe
   of these modes and the field distribution within the microstructures are simulated
   by means of FDTD methods. The field localization data obtained from calculations
   correspond to the two-photon microscopy images of the structures.
+tags:
+- Microstructures
+- Nonlinear Optics
 ---

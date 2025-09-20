@@ -35,4 +35,7 @@ abstract: 'Porous anodic aluminium oxide (AAO) is widely used as a template for 
   prepared using templates after chemical etching of the barrier layer possess a higher
   metal volume fraction and demonstrate a weaker dependence of the ENZ position on
   the nanorod length.'
+tags:
+- Plasmonics
+- Hyperbolic metamaterials
 ---

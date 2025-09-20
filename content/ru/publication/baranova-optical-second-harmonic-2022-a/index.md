@@ -29,4 +29,6 @@ abstract: We report some results of studying optical second harmonic generation 
   ones, is shown, which determines the efficiency of this method for investigating
   such systems. Finally, we demonstrate that the SHG effect is a unique remote and
   sensitive method for studying ferroelectric structures.
+tags:
+- Nonlinear Optics
 ---

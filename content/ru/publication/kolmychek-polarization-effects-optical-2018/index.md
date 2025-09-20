@@ -22,4 +22,8 @@ abstract: The main experimental results that have been recently obtained for the
   determined by thespatial symmetry of an array of nanoelements. The main properties
   of circular dichroism in the quadraticoptical response are supported by numerical
   calculations and symmetry analysis of structures.
+tags:
+- Nonlinear Optics
+- Metamaterials
+- Plasmonics
 ---

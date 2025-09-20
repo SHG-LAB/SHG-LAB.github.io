@@ -18,4 +18,7 @@ doi: 10.1364/FIO.2019.JTu4A.77
 abstract: Circular dichroism in optical second harmonic generation (SHG) is studied
   in different arrays of 3D chiral nanoholes in silver film. The results are compared
   with the SHG microscopy data for the isolated nanoholes of different symmetry.
+tags:
+- Nonlinear Optics
+- Metamaterials
 ---

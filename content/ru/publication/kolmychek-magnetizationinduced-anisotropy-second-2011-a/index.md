@@ -17,4 +17,7 @@ abstract: Magnetization-induced effects in the symmetry properties of optical se
   the SHG dependencies, supported by the SHG interferometry measurements, indicates
   that the effective magnetic and crystallographic second-order susceptibilities are
   both of the same order of magnitude. (C) 2011 Elsevier B.V. All rights reserved.
+tags:
+- Nonlinear Optics
+- Magnetism
 ---

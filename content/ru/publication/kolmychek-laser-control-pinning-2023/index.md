@@ -12,4 +12,6 @@ publishDate: '2025-03-15T18:26:10.869652Z'
 publication_types:
 - paper-conference
 publication: '*Book of Abstracts (V International Baltic Conference on Magnetism 2023)*'
+tags:
+- Magnetism
 ---

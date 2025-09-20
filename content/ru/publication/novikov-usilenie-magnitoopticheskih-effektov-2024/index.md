@@ -13,4 +13,8 @@ publication_types:
 - paper-conference
 publication: '*Енисейская Фотоника – 2024. Всероссийская Научная Конференция С Международным
   Участием. Тезисы Докладов*'
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
+  - Magnetooptics
 ---

@@ -20,4 +20,7 @@ abstract: Second harmonic generation by a disordered array of superparamagnetic 
   that the effect can be explained by correlations in the spatial fluctuations of
   the nonlinear-optical and magnetic polarizabilities of the particles, taking into
   account the nonuniformity of the effective (local) static magnetic field.
+tags:
+  - Nonlinear Optics
+  - Magnetism
 ---

@@ -20,4 +20,7 @@ abstract: Optical vortices have myriad applications in photonics. Very recently,
   optical nonlocality of these ENZ metamaterials, which leads to the appearance of
   phase singularities in transmission spectra. The cascaded metamaterial structure
   is proposed for high-order STOV generation.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
 ---

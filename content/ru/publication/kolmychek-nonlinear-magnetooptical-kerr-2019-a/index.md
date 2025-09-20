@@ -25,4 +25,7 @@ abstract: Nonlinear magneto-optical Kerr is used to study the magnetic propertie
   platinum and tantal. Our experiments reveal different nonlinear-optical response
   of these two types of structures related to specific magnetic properties of Co/Ta
   and Co/Pt interfaces.
+tags:
+  - Plasmonics
+  - Magnetooptics  
 ---

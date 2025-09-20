@@ -34,4 +34,7 @@ abstract: Porous films of anodic aluminum oxide are widely used as templates for
   absorption band corresponding to the excitation of collective longitudinal oscillations
   of the electron gas in the nanorods in a wide range of wavelengths by controlled
   decreasing of the metal volume fraction, is shown.
+tags:
+- Plasmonics
+- Hyperbolic metamaterials
 ---

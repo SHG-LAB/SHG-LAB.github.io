@@ -28,4 +28,8 @@ abstract: Plasmonic structures are extremely attractive for the light flow manip
   and relevant MO effects at the SHG wavelength that appear as Fano-type resonances.
   High transmission along with resonantly-high MO effects make Co/opal films promising
   in plasmonic applications.
+tags:
+  - Plasmonics
+  - Magnetooptics
+  - Nonlinear Optics
 ---

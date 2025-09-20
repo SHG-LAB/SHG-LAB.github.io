@@ -17,4 +17,6 @@ abstract: We study the light transmission through absorbing one-dimensional phot
   of the eigenmodes of the electromagnetic field. We show that photonic crystal demonstrates
   enhanced transmission and pronounced features of the frequency-angle transmission
   spectrum associated with the band inversion.
+tags:
+- Photonic Crystals
 ---

@@ -28,4 +28,6 @@ abstract: Photonic crystals (PCs) consisting of a periodic arrangement of holes 
   is demonstrated. The combination of the flexibility of the proposed approach with
   the unique properties of AAO extends the range of practical applications of 3D PCs
   far beyond the current achievements.
+tags:
+- Photonic Crystals
 ---

@@ -1,6 +1,5 @@
 ---
-title: High-quality Au/BIG/GGG magnetoplasmonic crystals fabricated by a combined
-  ion-beam etching technique
+title: High-quality Au/BIG/GGG magnetoplasmonic crystals fabricated by a combined ion-beam etching technique
 authors:
 - A. L. Chekhov
 - V. L. Krutyanskiy
@@ -13,4 +12,7 @@ publication_types:
 - article-journal
 publication: '*Optical Materials Express*'
 doi: 10.1364/OME.5.001647
+tags:
+  - Plasmonics
+  - Magnetooptics
 ---

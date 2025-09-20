@@ -25,4 +25,6 @@ abstract: Manipulation of optical microcavities using a magnetic field is a nove
   direction. The presented new method, which combines magnetic field–assisted micromanipulation
   and organic nanophotonics, is anticipated to offer prospects in the area of biophotonics,
   biomedicine, and magnetic field sensors.
+tags:
+- Microstructures
 ---

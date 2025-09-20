@@ -18,4 +18,7 @@ abstract: A one-dimensional combined plasmonic–photonic system tailored for th
   microcavity made of porous silicon. A multifold increase in an optical second harmonic
   generation signal in comparison to the structure without plasmonic nanoparticles
   is demonstrated.
+tags:
+  - Plasmonics
+  - Photonic Crystals
 ---

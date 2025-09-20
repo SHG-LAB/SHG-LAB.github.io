@@ -11,4 +11,7 @@ publication_types:
 - paper-conference
 publication: '*VIII Международная Конференция По Фотонике И Информационной Оптике
   Сборник Научных Трудов. ISBN 978-5-7262-2336-4*'
+tags:
+- Photonic Crystals
+- Nonlinear Optics
 ---

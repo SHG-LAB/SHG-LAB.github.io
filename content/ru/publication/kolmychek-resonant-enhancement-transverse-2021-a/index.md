@@ -22,4 +22,7 @@ abstract: Magneto-optical effects in metal–dielectric nanostructured materials
   It has been demonstrated experimentally and theoretically that a wide spectrum of
   modes of propagating surface plasmon polaritons is excited in such a system, which
   leads to a resonant enhancement of the magneto-optical effect in the Voigt geometry.
+tags:
+- Plasmonics
+- Magnetooptics
 ---

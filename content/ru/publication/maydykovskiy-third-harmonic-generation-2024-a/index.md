@@ -20,4 +20,9 @@ abstract: Nonlinear optical microscopy is a powerful non-destructive technique t
   of magnetic surface domains if the THG wavelength falls in the absorption band of
   a medium. Moreover, the in-depth sensitivity of this probe may be higher as compared
   to the case of the second harmonic generation microscopy.
+tags:
+- Microscopy
+- Magnetism
+- Magnetooptics
+
 ---

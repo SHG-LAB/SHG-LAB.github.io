@@ -31,4 +31,8 @@ abstract: Multilayer planar nanostructures formed by ferromagnetic and heavy met
   the structural asymmetry. Finally, interface-sensitive second harmonic generation
   (SHG) reveals odd in magnetic field SHG intensity effect for the longitudinal geometry
   of the applied dc magnetic field that is absent for homogeneously magnetized structures.
+tags:
+ - Magnetism
+ - Magnetooptics
+ - Magnetooptics
 ---

@@ -19,4 +19,8 @@ abstract: Layered structures based on porous silicon have been studied by confoc
   intensity with increasing porosity of the layers has been observed. This behavior
   may result from spatial fluctuations in the dipole quadratic response of the pore
   walls.
+tags:
+  - Microscopy
+  - Nonlinear Optic
+
 ---

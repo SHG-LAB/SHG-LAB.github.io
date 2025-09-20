@@ -14,4 +14,7 @@ abstract: We reveal theoretically the effects of fast and slow light in transmis
   (HMM) and demonstrate the decisive role of optical nonlocality of HMMs in the appearance
   of these phenomena in the spectral vicinity of the epsilon-near-zero regime of HMM.
   Results sustain our recent experimental investigations of these effects.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
 ---

@@ -21,4 +21,7 @@ abstract: Anisotropy of linear and nonlinear magnetooptical (MO) effects in a re
   and second harmonic wavelengths. We have demonstrated that the value of the MO effect,
   coercivity, and magnetization distribution depend substantially on the azimuthal
   orientation of the antidots array relatively to the external magnetic field.
+tags:
+- Magnetooptics
+- Nonlinear Optics
 ---

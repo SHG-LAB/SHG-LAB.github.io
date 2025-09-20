@@ -31,4 +31,7 @@ abstract: Organic polar crystals are a promising material platform for achieving
   in its spectrum. Moreover, for an external dc electric field of about 23 kV cm−1
   the microcavity displays 0.18 nm resonant wavelength peak shift in the second harmonic
   signal due to electrostriction (strain effect).
+tags:
+- Microstructures
+- Nonlinear Optics
 ---

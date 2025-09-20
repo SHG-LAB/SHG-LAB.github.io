@@ -35,4 +35,6 @@ abstract: Properties of nanolayers can substantially differ from those of bulky 
   (gradient) magnetization distribution at interfaces and found them quite pronounced,
   sothat they should be necessarily taken into account when analyzing the non-linear
   magneto-opticalresponse of nanostructures.
+tags:
+- Nonlinear Optics
 ---

@@ -26,5 +26,6 @@ abstract: Intermodal light interference in artificial optical structures has bec
   spectral and angular variations of the light transmission near the Bragg diffraction
   conditions and provide a detailed analysis of the effect.
 links:
-
+tags:
+- Photonic Crystals
 ---

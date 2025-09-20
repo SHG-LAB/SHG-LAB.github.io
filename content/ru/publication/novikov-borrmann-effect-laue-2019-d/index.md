@@ -27,4 +27,6 @@ abstract: We present experimental and theoretical studies of the anomalous high 
   in layers with higher refractive index, and disappear if the losses are specific
   for the PhC layers with lower refractive index. The suggested underlying mechanism
   involves the contribution of the waveguide PhC modes to the PhC transmission spectra.
+tags:
+- Photonic Crystals
 ---

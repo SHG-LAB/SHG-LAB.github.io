@@ -21,4 +21,7 @@ abstract: A method for formation of bulk plasmonic structures based on porous qu
   region. The enhancement of the second optical harmonic has been observed with the
   shift by tens of nanometers from the plasmon resonance position toward the long-wavelength
   region.
+tags:
+- Plasmonics
+- Nonlinear Optics
 ---

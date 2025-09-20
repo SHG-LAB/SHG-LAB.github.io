@@ -15,4 +15,7 @@ publication: '*TECHNICAL DIGEST, ICONO/LAT 2016, Nonlinear Optics and Novel Phen
 abstract: Polarization-resolved second harmonic generation (SHG) microscopy is applied
   to study planar chiral nanostructures. It was found that this technique reveals
   chirality of localized SHG sources within the structures
+tags:
+- Nonlinear Optics
+- Metamaterial
 ---

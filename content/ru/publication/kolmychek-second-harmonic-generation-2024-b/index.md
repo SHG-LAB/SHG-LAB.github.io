@@ -25,4 +25,7 @@ abstract: The interaction of laser radiation with magnetic media is a rapidly de
   on the high sensitivity of the method of optical second harmonic generations to
   the magnetic state of nanostructures and interfaces, and on the properties of symmetry
   of tensors of high-order magnetizationinduced susceptibility.
+tags:
+- Nonlinear Optics
+- Magnetism 
 ---

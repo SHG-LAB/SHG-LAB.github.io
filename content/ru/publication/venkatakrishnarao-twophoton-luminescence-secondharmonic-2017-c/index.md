@@ -28,4 +28,6 @@ abstract: 'We have envisioned the preparation of an organic NLO surface, i.e., a
   and numerical simula-tions depicting the ﬁeld localization inside these resonators
   due to WGM resonances, and (iv) production of both random lasing TPL and SHG from
   the organic NLO surface covered with frustum microresonators.'
+tags:
+- Microstructures
 ---

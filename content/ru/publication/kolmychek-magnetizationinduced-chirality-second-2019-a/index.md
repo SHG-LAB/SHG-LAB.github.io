@@ -23,4 +23,8 @@ abstract: Magnetization-induced circular dichroism (CD) in optical second harmon
   effect changes its sign under the reversal of the magnetic field, which corresponds
   to the appearance of magnetization driven true chirality in an array of symmetric
   magnetic nanostructures.
+tags:
+- Nonlinear Optics
+- Magnetism
+- Plasmonics
 ---

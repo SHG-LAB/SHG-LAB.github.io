@@ -23,4 +23,8 @@ abstract: Highly anisotropic metal-dielectric structures reveal unique dispersio
   an important role of the local field enhancement in a hyperbolic medium associated
   with ENZ and ENP dispersion points in the appearance of magneto-optical activity
   of magnetic hyperbolic metamaterials.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
+  - Magnetooptics
 ---

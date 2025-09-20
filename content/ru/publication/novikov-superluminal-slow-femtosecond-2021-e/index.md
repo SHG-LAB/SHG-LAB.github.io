@@ -21,4 +21,7 @@ abstract: Flourish of optics of hyperbolic metamaterials (HMMs) is stimulated by
   are in both dispersion regimes simultaneously. Our findings suggest HMMs as a powerful
   platform for future ultrafast photonics and are pivotal for growing nonlinear optics
   of hyperbolic media.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
 ---

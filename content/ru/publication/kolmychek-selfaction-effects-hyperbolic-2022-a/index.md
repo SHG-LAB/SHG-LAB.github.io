@@ -23,4 +23,8 @@ abstract: Intensive studies of hyperbolic metamaterials (HMMs) are induced by un
   strong enhancement and sign reversal of these effects in the vicinity of the epsilon-near-zero
   spectral point due to the resonant light localization and transition from elliptical
   to hyperbolic dispersion regimes.
+tags:
+- Plasmonics
+- Hyperbolic metamaterials
+- Nonlinear Optics
 ---

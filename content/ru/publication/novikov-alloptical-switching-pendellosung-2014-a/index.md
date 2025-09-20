@@ -16,4 +16,6 @@ doi: 10.1364/fio.2014.jw3a.33
 abstract: Optical switching of the Pendellözung effect in a porous silicon 1D photonic
   crystal at Bragg diffraction in Laue geometry is observed experimentally under an
   external optical illumination or direct thermal heating.
+tags:
+- Photonic Crystals
 ---

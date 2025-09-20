@@ -24,4 +24,8 @@ abstract: Magnetic planar nanostructures composed of ferromagnetic and heavy met
   of the SHG magnetic field dependencies, we show a clear difference of the magnetic
   behavior of the interfaces and of bulky materials, as well as additional features
   attributed to specific interfacial chiral magnetization distributions.
+tags:
+- Nonlinear Optics
+- Plasmonics
+- Magnetism
 ---

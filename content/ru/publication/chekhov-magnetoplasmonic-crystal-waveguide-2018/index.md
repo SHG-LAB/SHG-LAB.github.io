@@ -13,4 +13,7 @@ publication_types:
 - article-journal
 publication: '*Optics Express*'
 doi: 10.1364/OE.26.021086
+tags:
+  - Plasmonics
+  - Magnetooptics
 ---

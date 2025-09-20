@@ -22,4 +22,8 @@ abstract: We present the experimental studies on optical second-harmonic generat
   the SH process, the observed effects indicate the dominant role of the nonlinear
   magnetic-dipole polarization driven by the ̂emm susceptibility in SH generation
   in “nanosandwiches.”
+
+tags:
+- Nonlinear Optics
+- Metamaterials
 ---

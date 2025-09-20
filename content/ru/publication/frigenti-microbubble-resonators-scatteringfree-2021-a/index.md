@@ -28,4 +28,7 @@ abstract: We present a proof-of-concept experiment where the absorbance spectra 
   their optical absorption, especially when considering that the microbubble resonator
   naturally interfaces to a microfluidic circuit and may easily fit within portable
   or on-chip devices.
+
+tags:
+- Microstructures
 ---

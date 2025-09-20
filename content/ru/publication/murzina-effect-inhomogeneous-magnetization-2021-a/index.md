@@ -24,4 +24,7 @@ abstract: Magnetic nanostructures reveal unique interface induced properties tha
   induced SHG intensity variation is observed. Symmetry analysis of the SHG intensity
   dependencies on external magnetic field shows that the nonlinear source terms proportional
   to the out-of-plane gradient component of magnetization govern the observed effect.
+tags:
+- Nonlinear Optics
+- Magnetism
 ---

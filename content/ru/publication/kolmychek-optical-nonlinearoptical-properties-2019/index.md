@@ -19,4 +19,8 @@ abstract: We present the experimental results on optical an nonlinear-optical ef
   pronounced effects attributed to epsilon-near-zero and epsilon-near-pole dispersion
   points. In the spectral vicinity of the epsilon-near-zero, an enhancement of the
   optical activity and of the second harmonic intensity are observed.
+tags:
+  - Plasmonics
+  - Hyperbolic metamaterials
+  - Magnetooptics
 ---
