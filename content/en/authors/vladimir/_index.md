@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Владимир Борисович Новиков 
+title: Vladimir Novikov
 
 # Full Name (for SEO)
-first_name: Владимир
-last_name: Новиков
+first_name: Vladimir
+last_name: Novikov
 
 # Is this the primary user of the site?
 superuser: false
@@ -12,7 +12,7 @@ superuser: false
 weight: 3
 
 # Role/position
-role: научный сотрудник <br> к.ф-м.н. 
+role: Researcher <br> Ph.D.
 
 # Organizations/Affiliations
 organizations:
@@ -23,7 +23,7 @@ organizations:
 bio: 
 
 interests:
-#  - kfn 
+# - kfn 
 #  - Artificial Intelligence
 #  - Computational Linguistics
 #  - Information Retrieval
@@ -73,6 +73,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Сотрудники
+  - Research Staff
+
 ---
 contact+vladimir@shg.ru

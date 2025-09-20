@@ -3,89 +3,61 @@
 title: Андрей Доценко 
 
 # Full Name (for SEO)
-first_name: Андрей
-last_name: Доценко
+first_name:
+last_name:
 weight: 1
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: андрей # #🤠
+role: 
 
 # Organizations/Affiliations
 organizations:
   - name: 
-    url: ''
+    url: 
 
 # Short bio (displayed in user profile at end of posts)
-bio: <div style="text-align:center;"> <img src="https://media.tenor.com/blwK0rdIId8AAAAi/cat-oiiaoiia-cat.gif" alt="Computer man" style="width:60px;height:60px;"> </div>
+bio: 
 
 interests:
  - Метаматериалы
-#  - Computational Linguistics
-#  - Information Retrieval
+ - Наноплазмоника
+ - Магнитооптика
+ - <img src="https://media.tenor.com/blwK0rdIId8AAAAi/cat-oiiaoiia-cat.gif" 
+     style="width:50px;height:50px; float:left;">
 
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year:  2012
-    # - course: #MEng in Artificial Intelligence
-    #   institution: #Massachusetts Institute of Technology
-    #   year: #2009
-    # - course: #BSc in Artificial Intelligence
-    #   institution: #Massachusetts Institute of Technology
-    #   year: #2008
+# education:
+#   courses:
+    # - course: PhD in Artificial Intelligence
+    #   institution: Stanford University
+    #   year:  2012
+    # # - course: #MEng in Artificial Intelligence
+    # #   institution: #Massachusetts Institute of Technology
+    # #   year: # 2009
+    # # - course: #BSc in Artificial Intelligence
+    # #   institution: #Massachusetts Institute of Technology
+    # #   year:  # 2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - name: felnk
-    description: 90%
-    icon: "custom/istina"
-    icon_pack: custom
-    link: 'https://istina.msu.ru/workers/361066470/'
-
- 
-
   - icon: building-columns
     icon_pack: fas
     link: 'https://istina.msu.ru/workers/361066470/'  
-
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: 'https://istina.msu.ru/workers/361066470/' 
   - icon: google-scholar
     icon_pack: fab
-    link: 'https://istina.msu.ru/workers/361066470/' 
-  # - icon: researchgate
-  #   icon_pack: ai
-  #   link: 'https://istina.msu.ru/workers/361066470/' 
+    link: 'https://scholar.google.com/citations?user=nvZfSewAAAAJ&' 
   - icon: researchgate
     icon_pack: fab
-    link: 'https://istina.msu.ru/workers/361066470/' 
-  - icon: orcid
-    icon_pack: fab
-    link: 'https://istina.msu.ru/workers/361066470/' 
+    link: 'https://www.researchgate.net/profile/Andrey-Dotsenko' 
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: 'mailto:test@example.org'
 
-
-
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:test@example.org'
-
-  # - icon: twitter
-  #   icon_pack: fab
-  #   link: https://twitter.com/GeorgeCushen
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  # - icon: github
-  #   icon_pack: fab
-  #   link: https://github.com/gcushen
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -103,10 +75,23 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Аспиранты
+
+# sections:
+#  - block: collection
+#    content:
+#       title: Публикации
+#       subtitle: # "[Все публикации >>](/ru/publication)"
+#       text:
+#       count: 3
+#       filters:
+#         folders:
+#           - publication
+#         #publication_type: 
+#       sort_by: "Date"
+#       page_type: 
+#       design:
+#       view: list #compact # publications  #  #citation
+#       columns: "2"
 ---
 
-<p style='vertical-align:middle; display:inline;'> Основной текст о себе ... <img src="https://media.tenor.com/blwK0rdIId8AAAAi/cat-oiiaoiia-cat.gif" alt="Computer man" style="width:80px;height:80px;">  knfvkfrn </p> 
 
-fvmlflvmf
-
-vsflmd

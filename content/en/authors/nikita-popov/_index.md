@@ -1,18 +1,17 @@
 ---
 # Display name
-title: Владимир Борисович Новиков 
+title: Nikita Popov
 
 # Full Name (for SEO)
-first_name: Владимир
-last_name: Новиков
+first_name: Nikita
+last_name: Popov
+weight: 20
 
 # Is this the primary user of the site?
 superuser: false
 
-weight: 3
-
 # Role/position
-role: научный сотрудник <br> к.ф-м.н. 
+role:
 
 # Organizations/Affiliations
 organizations:
@@ -23,7 +22,6 @@ organizations:
 bio: 
 
 interests:
-#  - kfn 
 #  - Artificial Intelligence
 #  - Computational Linguistics
 #  - Information Retrieval
@@ -45,18 +43,18 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:contact+vladimir@shg.ru'
-  - icon: building-columns
-    icon_pack: fas
-    link: 'https://istina.msu.ru/workers/34547268/'  
-  - icon: google-scholar
-    icon_pack: fab
-    link: 'https://scholar.google.com/citations?user=EgCiHyEAAAAJ&' 
-  - icon: researchgate
-    icon_pack: fab
-    link: 'https://www.researchgate.net/profile/Vladimir-Novikov-5' 
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: 'mailto:test@example.org'
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/GeorgeCushen
+  # - icon: google-scholar
+  #   icon_pack: ai
+  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/gcushen
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -73,6 +71,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Сотрудники
+  - Students
 ---
-contact+vladimir@shg.ru
+
+Основной текст о себе ... 

@@ -1,18 +1,17 @@
 ---
 # Display name
-title: Владимир Борисович Новиков 
+title: Evgeniy Zhaboev 
 
 # Full Name (for SEO)
-first_name: Владимир
-last_name: Новиков
+first_name: Evgeniy 
+last_name: Zhaboev
+weight: 11
 
 # Is this the primary user of the site?
 superuser: false
 
-weight: 3
-
 # Role/position
-role: научный сотрудник <br> к.ф-м.н. 
+role:
 
 # Organizations/Affiliations
 organizations:
@@ -23,16 +22,15 @@ organizations:
 bio: 
 
 interests:
-#  - kfn 
-#  - Artificial Intelligence
-#  - Computational Linguistics
-#  - Information Retrieval
+  - Magneto-optics and nonlinear optics
+  - Magnetic domain structures
+  - Pinning effect
 
-# education:
-#   courses:
-#     - course: #PhD in Artificial Intelligence
-#       institution: #Stanford University
-#       year: # 2012
+education:
+  courses:
+    - course: MSc in Physics
+      institution: MSU
+      year: 2025
 #     - course: #MEng in Artificial Intelligence
 #       institution: #Massachusetts Institute of Technology
 #       year: #2009
@@ -45,19 +43,9 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:contact+vladimir@shg.ru'
   - icon: building-columns
     icon_pack: fas
-    link: 'https://istina.msu.ru/workers/34547268/'  
-  - icon: google-scholar
-    icon_pack: fab
-    link: 'https://scholar.google.com/citations?user=EgCiHyEAAAAJ&' 
-  - icon: researchgate
-    icon_pack: fab
-    link: 'https://www.researchgate.net/profile/Vladimir-Novikov-5' 
-
+    link: 'https://istina.msu.ru/workers/717844786/'  
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -73,6 +61,9 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Сотрудники
+  - PhD students
 ---
-contact+vladimir@shg.ru
+I am a PhD student at the Department of General Physics, Faculty of Physics, Lomonosov Moscow State University.
+
+During my Master’s studies (2025), I carried out research on the magneto-optical properties of ferrite–garnet films with regular arrays of low-dimensional structures.
+My work focused on investigating magnetic domains using the Faraday and Kerr effects, as well as studying the influence of Co/Au magnetic nanoparticle arrays on the stability of domain walls near nanostructures.

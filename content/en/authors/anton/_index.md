@@ -1,18 +1,16 @@
 ---
 # Display name
-title: Владимир Борисович Новиков 
+title: Anton Maydykovskiy
 
 # Full Name (for SEO)
-first_name: Владимир
-last_name: Новиков
+first_name: Anton
+last_name: Maydykovskiy
 
 # Is this the primary user of the site?
 superuser: false
-
-weight: 3
-
+weight: 1
 # Role/position
-role: научный сотрудник <br> к.ф-м.н. 
+role: Senior Researcher <br>  Ph.D.
 
 # Organizations/Affiliations
 organizations:
@@ -23,22 +21,21 @@ organizations:
 bio: 
 
 interests:
-#  - kfn 
 #  - Artificial Intelligence
 #  - Computational Linguistics
 #  - Information Retrieval
 
 # education:
-#   courses:
-#     - course: #PhD in Artificial Intelligence
-#       institution: #Stanford University
-#       year: # 2012
-#     - course: #MEng in Artificial Intelligence
-#       institution: #Massachusetts Institute of Technology
-#       year: #2009
-#     - course: #BSc in Artificial Intelligence
-#       institution: #Massachusetts Institute of Technology
-#       year: #2008
+  # courses:
+  #   - course: #PhD in Artificial Intelligence
+  #     institution: #Stanford University
+  #     year: # 2012
+  #   - course: #MEng in Artificial Intelligence
+  #     institution: #Massachusetts Institute of Technology
+  #     year: #2009
+  #   - course: #BSc in Artificial Intelligence
+  #     institution: #Massachusetts Institute of Technology
+  #     year: #2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -47,16 +44,13 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:contact+vladimir@shg.ru'
+    link: 'mailto:contact+anton@shg.ru'
   - icon: building-columns
     icon_pack: fas
-    link: 'https://istina.msu.ru/workers/34547268/'  
+    link: 'https://istina.msu.ru/workers/418022/'  
   - icon: google-scholar
     icon_pack: fab
-    link: 'https://scholar.google.com/citations?user=EgCiHyEAAAAJ&' 
-  - icon: researchgate
-    icon_pack: fab
-    link: 'https://www.researchgate.net/profile/Vladimir-Novikov-5' 
+    link: 'https://scholar.google.com/citations?user=5jI2d4QAAAAJ&' 
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -73,6 +67,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Сотрудники
+  - Research Staff
 ---
-contact+vladimir@shg.ru
+ 
+contact+anton@shg.ru
