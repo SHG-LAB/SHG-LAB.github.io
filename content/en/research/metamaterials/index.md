@@ -1,10 +1,11 @@
 ---
 # Page title
-title: Наноплазмоника 
-date: 2001-01-01
+title: Метаматериалы и фотонные кристаллы
+date: 2002-01-01
 # Page type - we want a landing page (such as a homepage)
 type: landing
-show_date: false
+draft: true
+share: false
 
 # Your landing page sections - add as many different content blocks as you like
 sections:
@@ -13,9 +14,9 @@ sections:
     
   - block: markdown
     content:
-      title: ؜  <h3> [Направления исследований](/ru/research) </h3>
-      subtitle:  1 Наноплазмоника <br>  2 [Метаматериалы и фотонные кристаллы](/ru/our-research/metamaterials) <br> 3 [Нелинейная микроскопия](/ru/our-research/nlmicroscopy) <br> 4 [Двухфотонная лазерная литография](/ru/our-research/litography) <br> 5 [Магнитооптика](/ru/our-research/magnetooptics) <br> <h3> [Оборудование](/ru/research/#eq)</h3>
-      text: "<h1> Заголовок1 </h1> \n  
+      title:  <h3>Направления исследований </h3> #<h3>[Направления исследований](/ru/research) </h3>
+      subtitle:  1 [Наноплазмоника](/en/research/plasmonics) <br> 2 Метаматериалы и фотонные кристаллы <br> 3 [Нелинейная микроскопия](/en/research/nlmicroscopy) <br> 4 [Двухфотонная лазерная литография](/en/research/lithography) <br> 5 [Магнитооптика](/en/research/magnetooptics)
+      text: "<h1> Заголовок2 </h1> \n  
           Полное описание навправления \n
           - тык \n
           - мык \n"
@@ -34,17 +35,19 @@ sections:
     content:
       title: Публикации по этой теме
       text: ""
-      count: 25
+      count: 999
       filters:
         folders:
           - publication
-        #publication_type: 'article'
-        tag: 'Source Themes'  
+        publication_type: 'article-journal'
+        tag: 
+          - Photonic Crystals
+          - Metamaterials
     design:
-      view: citation
+      view: list
       columns: '2'
 ---
-Описание навправления для карточки -- вроде бы не видно в полном тексте 
+Описание навправления для карточки 
 
 <!-- ---
 title: Оптика наноструктур
