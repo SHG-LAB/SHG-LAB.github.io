@@ -1,0 +1,21 @@
+{{ if not .IsHome }}
+  <nav class="d-none d-md-flex" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      {{ template "breadcrumb" . }}
+      <li class="breadcrumb-item active" aria-current="page">
+        {{ .LinkTitle | emojify }}
+      </li>
+    </ol>
+  </nav>
+{{ end }}
+
+{{ define "breadcrumb" }}
+  {{ with .Parent }}
+    {{ template "breadcrumb" . }}
+    {{ if not .IsHome }}
+      <li class="breadcrumb-item">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle | emojify }}</a>
+      </li>
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -1,27 +1,21 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: Лаборатория нелинейной оптики наноструктур и фотонных кристаллов
 date: 2022-10-24
 type: landing
 
 sections:
   - block: hero
     content:
-      title: <br><p style="text-align:left; font-weight:500;"> Лаборатория нелинейной оптики наноструктур и фотонных кристаллов </p>
+      title:  Лаборатория нелинейной оптики наноструктур и фотонных кристаллов
       image:
-        filename: lab_cover_test.jpg
+        filename: transparent.svg #  lab_cover_test.jpg #
         filters:
-            brightness: 0.25
-            opacity: 0.5
+            brightness: 0.1
+            opacity: 100
       text: | 
-        <br>
-        <p style="text-align: left; font-weight: 300;"> Мы исследуем (линейные и нелинейные) оптические и магнитные эффекты в микроструктурах, метаматериалах и фотонных кристаллах, а также изготовляем микроструктуры методом двухфотонной лазерной литографии. </p> 
-        <br>
-        <p style="text-align: left; font-weight: 300; text-decoration: underline none;  text-underline-offset: 0.25rem;"> 
-          <a href="https://www.phys.msu.ru" target="_blank" style="color: #d1d3d7;">Физический факультет МГУ</a> <br>
-          <a href="https://quantum.phys.msu.ru/ru"  target="_blank" style="color: #d1d3d7;">Кафедра квантовой электроники</a>
-          <br><br>
-        </p>
+        Мы исследуем линейные и нелинейные оптические и магнитооптические эффекты в микроструктурах, метаматериалах и фотонных кристаллах, а также изготавливаем микроструктуры методом двухфотонной лазерной литографии. 
+        <p class="hero-links-text">  <a href="https://www.phys.msu.ru" target="_blank" style="color: #d1d3d7;">Физический факультет МГУ</a> <br>  <a href="https://quantum.phys.msu.ru/ru"  target="_blank" style="color: #d1d3d7;">Кафедра квантовой электроники</a> </p>
     design:
       # Choose an optional background color, gradient, image, or video
       background:
@@ -58,6 +52,11 @@ sections:
     design:
       view: card # publications #compact #card showcase
       columns: "2"
+    archive:
+        enable: true
+        text: Все новости
+        link: post/
+
 
   # - block: markdown
   #   content:
@@ -99,20 +98,21 @@ sections:
   - block: contact
     id: contact_us
     content:
-      title: "Связаться с нами:"
-      text: |-
-      email: test@example.org
+      title: "Связаться с нами"
+      subtitle: 
+      text: 
+      email: contact+q@shg.ru
       phone: +7 495 939-36-69
       address:
         street: Ленинские горы, д. 1, стр. 62
         city: Москва
         region: 
-        postcode: ' '
+        postcode: '119234'
         country: 
         country_code: 
       coordinates:
-        latitude: '55.706665'
-        longitude: '37.520557'
+        latitude: '55.706714'
+        longitude: '37.520730'
       directions: Корпус нелинейной оптики, комната 408
       # office_hours:
       #   - 'ПН-ПТ с 11:00 до 19:00'
@@ -145,5 +145,5 @@ sections:
   #       {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
   #   design:
   #     columns: "1"
-  
+
 ---

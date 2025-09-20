@@ -1,7 +1,7 @@
 ---
 title: Учебные курсы
 type: landing
-
+draft: true
 sections:
   - block: markdown
     content:

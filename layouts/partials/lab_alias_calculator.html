@@ -1,32 +1,103 @@
+{{ $lang := .Page.Site.Language.Lang }}
+
 {{/*  Здесь редактируем варианты имени и ссылку на страницы  */}}
 {{$tv := dict
     "name" "tv"
-    "alias" (slice "t. v. murzina" "tatiana v. murzina" "tatiana v murzina")
-    "link" "/ru/author/татьяна-владимировна-мурзина"
+    "alias" (slice "t. v. murzina" "tatiana v. murzina" "tatiana v murzina" "t. murzina" "tatiana murzina" "murzina tatiana v" "t. murzina" "т. в. мурзина" "татьяна в мурзина" "татьяна в. мурзина" "татьяна владимировна мурзина" "татьяна владимировна-мурзина" "татьяна владимировна мурзина")
+    "link_ru" "/ru/author/татьяна-владимировна-мурзина"
+    "link_en" "/en/author/tatiana-murzina/"
 }}
 
 {{ $andrey := dict
     "name" "andrey"
-    "alias" (slice "andrey a dotsenko" "a. a. dotsenko" "andrey a. dotsenko") 
-    "link" "/ru/author/андреи-доценко"
+    "alias" (slice "andrey a dotsenko" "a. a. dotsenko" "andrey a. dotsenko" "а. а. доценко") 
+    "link_ru" "/ru/author/андреи-доценко"
+    "link_en" "/en/author/andrey-dotsenko/"
+}}
+
+{{ $anton := dict
+    "name" "anton"
+    "alias" (slice "a. i. maidykovskiy" "a. i. maidykovski" "a. maydykovskiy" "a. i. maydykovskiy" "a. maidykovskiy"  "a. i. maidykovskii" "anton i. maydykovskiy" "anton i maydykovskiy" "anton maydykovskiy" "а. и. майдыковский" ) 
+    "link_ru" "/ru/author/антон-игоревич-маидыковскии"
+    "link_en" "/en/author/anton-maydykovskiy/"
+}}
+
+{{ $ia := dict
+    "name" "ia"
+    "alias" (slice "i. a. kolmychek" "irina a kolmychek" "irina a. kolmychek" "irina kolmychek" "и. а. колмычек"  ) 
+    "link_ru" "/ru/author/ирина-алексеевна-колмычек"
+    "link_en" "/en/author/irina-kolmychek/"
+}}
+
+{{ $vladimir := dict
+    "name" "vladimir"
+    "alias" (slice "v. b. novikov" "vladimir b. novikov" "v. novikov" "vladimir b novikov" "в. б. новиков" ) 
+    "link_ru" "/ru/author/владимир-борисович-новиков"
+    "link_en" "/en/author/vladimir-novikov/"
+}}
+
+{{ $arsenii := dict
+    "name" "arsenii"
+    "alias" (slice "a. k. zagravskii" "а. к. загравский" ) 
+    "link_ru" "/ru/author/арсении-загравскии"
+    "link_en" "/en/author/arsenii-zagravskii/"
+}}
+
+{{ $evgeny := dict
+    "name" "evgeny"
+    "alias" (slice "evgeniy i. zhaboev" "evgeniy i zhaboev" "evgeny i. zhaboev" "e. i. zhaboev" "е. и. жабоев") 
+    "link_ru" "/ru/author/евгении-жабоев"
+    "link_en" "/en/author/evgeniy-zhaboev/"
+}}
+
+{{ $ilya := dict
+    "name" "ilya"
+    "alias" (slice "и. о. батуев" "i. o. batuev" "ilya o. batuev") 
+    "link_ru" "/ru/author/илья-батуев"
+    "link_en" "/en/author/ilya-batuev/"
+}}
+
+{{ $kirill := dict
+    "name" "kirill"
+    "alias" (slice "k. a. smirnov" "kirill a smirnov"  "kirill a. smirnov" "к. а. смирнов") 
+    "link_ru" "/ru/author/кирилл-смирнов"
+    "link_en" "/en/author/kirill-smirnov/"
+}}
+
+{{ $nikita_popov := dict
+    "name" "nikita_popov"
+    "alias" (slice "nikita s. popov" "n. s. popov" "н. с. попов") 
+    "link_ru" "/ru/author/никита-попов"
+    "link_en" "/en/author/nikita-popov/"
 }}
 
 {{/*  Здесь собираем всех членов лабы воедино  */}}
 {{ $lab_members := slice
     $tv
     $andrey
+    $anton
+    $ia
+    $vladimir
+    $arsenii
+    $evgeny
+    $ilya
+    $kirill
+    $nikita_popov
 }}
 
 {{ $toFind :=  lower .LinkTitle}}
 {{ $result := ""}}
 
 {{/*  Здесь преобразуем это все в массив вариантов имен с соответствующими ссылками  */}}
-{{ range $member := $lab_members}}
-    {{range $alias := $member.alias}}
-        {{ if eq $toFind $alias }}
-            {{ $result = $member.link }}
-        {{ end }}
-    {{end}}
-{{end}}
-
+{{ range $member := $lab_members }}
+  {{ range $alias := $member.alias }}
+    {{ if eq $toFind $alias }}
+      {{ if eq $lang "ru" }}
+        {{ $result = $member.link_ru }}
+      {{ else if eq $lang "en" }}
+        {{ $result = $member.link_en }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
 {{ return $result }}

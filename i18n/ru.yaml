@@ -64,7 +64,7 @@
   translation: PDF
 
 - id: btn_cite
-  translation: Процитировать
+  translation: BibTeX #Процитировать
 
 - id: btn_slides
   translation: Слайды
@@ -123,7 +123,7 @@
   translation: Посмотреть всё
 
 - id: more_posts
-  translation: Больше статей
+  translation: Все Новости #Больше статей
 
 - id: more_talks
   translation: Больше выступлений

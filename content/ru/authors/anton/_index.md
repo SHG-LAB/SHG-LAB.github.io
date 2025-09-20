@@ -8,9 +8,9 @@ last_name: Майдыковский
 
 # Is this the primary user of the site?
 superuser: false
-
+weight: 1
 # Role/position
-role: к.ф-м.н., старший научный сотрудник
+role: старший научный сотрудник <br>  к.ф-м.н. 
 
 # Organizations/Affiliations
 organizations:
@@ -25,35 +25,32 @@ interests:
 #  - Computational Linguistics
 #  - Information Retrieval
 
-education:
-  courses:
-    - course: #PhD in Artificial Intelligence
-      institution: #Stanford University
-      year: # 2012
-    - course: #MEng in Artificial Intelligence
-      institution: #Massachusetts Institute of Technology
-      year: #2009
-    - course: #BSc in Artificial Intelligence
-      institution: #Massachusetts Institute of Technology
-      year: #2008
+# education:
+  # courses:
+  #   - course: #PhD in Artificial Intelligence
+  #     institution: #Stanford University
+  #     year: # 2012
+  #   - course: #MEng in Artificial Intelligence
+  #     institution: #Massachusetts Institute of Technology
+  #     year: #2009
+  #   - course: #BSc in Artificial Intelligence
+  #     institution: #Massachusetts Institute of Technology
+  #     year: #2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: 'mailto:test@example.org'
-  # - icon: twitter
-  #   icon_pack: fab
-  #   link: https://twitter.com/GeorgeCushen
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  # - icon: github
-  #   icon_pack: fab
-  #   link: https://github.com/gcushen
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:contact+anton@shg.ru'
+  - icon: building-columns
+    icon_pack: fas
+    link: 'https://istina.msu.ru/workers/418022/'  
+  - icon: google-scholar
+    icon_pack: fab
+    link: 'https://scholar.google.com/citations?user=5jI2d4QAAAAJ&' 
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -73,4 +70,4 @@ user_groups:
   - Сотрудники
 ---
 
-Основной текст о себе ... 
+contact+anton@shg.ru
