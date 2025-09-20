@@ -1,13 +1,74 @@
-// consistent background colors for team seaction
-// .wg-people {
-//   background-color: $sta-home-section-even ;
-// }
-
-// .dark .wg-people {
-//   background-color: $sta-dark-home-section-even ;
-// }
 
 
+.stream-item img,
+.media img {
+  border-radius: 3px;   
+  // object-fit: cover;     /* optional: keeps it neat if cropped */
+}
+
+// pager items have background color and border
+.post-nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: $sta-home-section-odd;
+  border: 2px solid $sta-home-section-even;
+  border-radius: 5px;
+}
+.dark .post-nav-item {
+  background-color: $sta-dark-home-section-odd;
+  border: 2px solid $sta-dark-home-section-even;
+}
+
+// так появление скроллбара не будет сдвигать контент
+@media (min-width: 768px) {
+  html {
+    scrollbar-gutter: stable;
+  }
+}
+
+// contact page map size
+#map {
+  width: 95%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+}
+@media (min-width: 992px) {
+  #map {
+
+    width: 90%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+#contact_us{
+  padding-top: 5rem ;
+}
+
+
+#contact_us .mb-0{      /// padding if there is no subtitle
+  padding-bottom: 2rem;
+  @media (max-width: 992px) {
+    padding-bottom: 0rem;
+  }
+}
+
+
+
+
+// article h1 size adjustment 
+.article-container h1 {
+  font-size: 1.8rem;   
+  // font-weight: 600;  /* optional
+  // margin-top: 1rem;  /* adjust spacing */
+}
+
+// hide auto theme option
+.theme-dropdown .js-set-theme-auto {
+  display: none !important;
+}
 
 
 // author highlighted in publications
@@ -33,19 +94,71 @@
 }
 
 
+/////////  Hero section /////////
 
-// hero image settings
+// big screen hero section height is at least 2/3 of viewport height
+@media (min-width: 768px) {
+  #section-hero {
+    min-height: 80vh;
+  }
+  .hero-links-text{
+    padding-bottom: 1rem;
+    padding-top: 3rem !important;
+  }
+}
+
+// hero image settings -- change when image is added
 .hero-media img {
   width: 70%;
-  height: auto;
-  padding-top: 60px;
+  height: auto; // maintain aspect ratio
+  padding-top: 6rem; //60px;
+  @media (max-width: 768px) {
+    display: none !important; // hide on mobile view
+  }
+}
+// probably delete after image added 
+@media (max-width: 768px) {
+  #section-hero{
+    min-height: 66vh;
+  }
 }
 
+// hero title
 .hero-title {
+  text-align:left; 
+  font-weight: 500;
   font-size: 2rem;
+  padding-top: 2rem;
+  @media (min-width: 768px) {
+     padding-top: 2rem;
+  }
 }
 
-// home section padding in desktop and tablet view
+// hero text 
+.hero-lead{
+  text-align: left; 
+  font-size: 1.125rem !important;
+  line-height: 1.6rem !important;
+  font-weight: 300;
+  padding-top: 2rem;
+  @media (max-width: 768px) {
+    padding-top: 2.5rem; // mobile view
+  }
+}
+
+// hero links 
+.hero-links-text{
+  font-size: 1rem;
+  line-height: 1.7rem;
+  text-decoration: underline; //none;  
+  text-underline-offset: 0.25rem; 
+  padding-top: 1.5rem
+}
+
+//////// End Hero section /////////
+
+
+// home page horizontal padding in desktop and tablet view
 .home-section {
   padding: 2em 1.5em !important; // default (desktop/tablet)
 
@@ -54,6 +167,14 @@
   }
 }
 
+
+// reduced padding to pevent annoying 3row names at laptop screen size
+@media (min-width: 992px) {
+  .people-person{
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+  }
+}
 
 // #theme-icon {
 //   transition: transform 0.3s ease;
@@ -64,10 +185,16 @@
 // }
 
 // card view image
+
+.card-simple {
+  padding-left: 40px ;
+  padding-right: 40px ;
+}
+
 .img-hover-zoom {
-  max-height: 200px;
+  max-height: 300px;
   width: auto; // maintain aspect ratio
-  margin: 0 auto; // center it if needed
+  // margin: 0 auto; // center it if needed
 
   // Optional: Set a fixed height with object-fit if you want cropping
   // height: 1000px;
@@ -106,9 +233,9 @@ a.summary-link {
     // background-color: red;
   }
 }
-// publications list and each publication page
+publications list and each publication page
 .article-metadata {
-  font-size: 0.7rem; //larger font size for autors, venue and date
+  font-size: 1rem; //larger font size for autors, venue and date
 }
 
 .article-tags {
@@ -119,6 +246,11 @@ a.summary-link {
   line-height: 1.5rem;
   font-size: 128;
 }
+
+// .pub-abstract {
+//   font-size: 0.875rem;
+//   line-height: 1.25rem;
+// }
 
 .embed-container {
   position: relative;
@@ -150,12 +282,14 @@ a.summary-link {
 }
 
 .people-person {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .featured-image-wrapper {
   padding-left: 1rem !important;
   padding-right: 1rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 body.dark,
@@ -189,9 +323,10 @@ body.dark,
 }
 
 
-.hero-lead {
-  font-size: 1rem;
-  margin-top: 1rem;
+// add padding before Interests and Education sections
+
+#profile-page .article-style {
+  padding-bottom: 1rem;
 }
 
 
