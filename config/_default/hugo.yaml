@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: SHG prototype # Website name
+title: SHG # Website name
 baseURL: 'https://example.com/' # Website URL
 
 ############################
@@ -61,3 +61,18 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+cascade:
+  # Configure blog posts
+  - _target:
+      path: /post/**
+    pager: true
+    reading_time: false
+    commentable: false
+    show_related: false
+    show_breadcrumb: true
+    share: false
+    profile: false # не показывать автора
+  - _target:
+      path: /publication/**
+    share: false
