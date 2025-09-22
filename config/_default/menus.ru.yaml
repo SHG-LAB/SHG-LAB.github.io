@@ -21,7 +21,7 @@ main:
     weight: 60 
   - name: Курсовые работы  
     parent: students
-    url: for-students/my-first-research
+    url: for-students/my-first-project
     weight: 2
   # - name: Учебные курсы 
   #   parent: students

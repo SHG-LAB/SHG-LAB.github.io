@@ -21,7 +21,7 @@ main:
     weight: 60 
   - name: Research Project Topics
     parent: students
-    url: for-students/my-first-research/
+    url: for-students/my-first-project/
     weight: 2
   # - name: Education
   #   parent: students
