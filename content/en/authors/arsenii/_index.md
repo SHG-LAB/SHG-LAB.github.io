@@ -64,5 +64,3 @@ highlight_name: false
 user_groups:
   - Students
 ---
-
-Основной текст о себе ... 
