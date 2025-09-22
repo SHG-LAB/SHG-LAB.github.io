@@ -1,3 +1,38 @@
+// @media (max-width: 991.98px) { /* below lg */
+//   .section-heading.align-items-center {
+//     align-items: flex-start !important;
+//   }
+// }
+
+
+// publications page adjustments
+  //  for mobile view
+
+@media (max-width: 768px) {
+   
+    /* Remove horizontal padding only for publication grid items */
+    #container-publications .grid-sizer.col-lg-12 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    /* Remove row side margins inside publication container */
+    #container-publications .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+  // for desktop view
+@media (min-width: 768px) {
+  /* the form-row immediately before the publications container */
+  .universal-wrapper .form-row.mb-4 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 10px  !important; 
+    padding-top: 1rem !important; 
+
+  }
+}
 
 
 .stream-item img,
@@ -33,16 +68,21 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 3px;
-}
-@media (min-width: 992px) {
-  #map {
 
+  @media (max-width: 992px) {
+    margin-top: 30px;
+  }
+
+  @media (min-width: 992px) {
+ 
     width: 90%;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
-  }
+  
+    }
 }
+
 #contact_us{
   padding-top: 5rem ;
 }
@@ -128,9 +168,9 @@
   text-align:left; 
   font-weight: 500;
   font-size: 2rem;
-  padding-top: 2rem;
+  padding-top: 0.5rem;
   @media (min-width: 768px) {
-     padding-top: 2rem;
+     padding-top: 0.5rem;
   }
 }
 
@@ -186,10 +226,13 @@
 
 // card view image
 
-.card-simple {
-  padding-left: 40px ;
-  padding-right: 40px ;
+@media (min-width: 768px) {
+  .card-simple {
+    padding-left: 40px ;
+    padding-right: 40px ;
+  }
 }
+
 
 .img-hover-zoom {
   max-height: 300px;
