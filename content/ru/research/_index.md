@@ -14,7 +14,7 @@ sections:
     content:
       title: Научные направления лаборатории
       subtitle: ㅤ
-      text: "Исследования в нашей лаборатории могут быть условно разделены на следующие направления: <br>  <br>" 
+      text: "Исследования нашей лаборатории могут быть условно разделены на следующие направления: <br>  <br>" 
 
       # Display content from the `content/post/` folder
       filters:
@@ -28,7 +28,28 @@ sections:
       view:  list #publications #publications # #card #list #compact  # showcase  masonry
       # For the Showcase view, do you want to flip alternate rows?
       flip_alt_rows: false
-    
+
+
+  - block: markdown
+    content:
+      title:
+      subtitle: ""
+      text: ‎
+          ![](team1.jpg)
+    # design:
+    #   columns: "1"
+    #   background:
+    #     image:
+    #       filename: team1.jpg
+    #       filters:
+    #         brightness: 1
+    #       parallax: false
+    #       position: center
+    #       size: cover
+    #       text_color_light: true
+    #   spacing:
+    #     padding: ["20px", "0", "20px", "0"]
+    #   css_class: fullscreen  
   # - block: markdown
   #   id: eq
   #   content:

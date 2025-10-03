@@ -9,7 +9,7 @@ sections:
     content:
       title:  Лаборатория нелинейной оптики наноструктур и фотонных кристаллов
       image:
-        filename: transparent.svg #  lab_cover_test.jpg #
+        filename: transparent.svg # team1.jpg # 
         filters:
             brightness: 0.1
             opacity: 100
