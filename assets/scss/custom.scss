@@ -1,5 +1,65 @@
-// parallax also on mobile 
-#section-hero .parallax{
+// custom box shadows
+:root {
+  --shadow-s: 
+  inset 0 1px 2px #ffffff30, /* top highlight */
+  0 1px 2px #00000030, /* bottom shadow */
+  0 2px 4px #00000015; /* soft shadow */
+  --shadow-m: 
+  inset 0 1px 2px #ffffff50, /* top highlight */
+  0 2px 4px #00000030, /* bottom shadow */
+  0 4px 8px #00000015; /* soft shadow */
+  --shadow-l:
+  inset 0 1px 2px #ffffff70, /* top highlight */
+  0 4px 6px #00000050, /* bottom shadow */
+  0 6px 10px #00000020; /* soft shadow */
+}
+
+
+
+// boxes on student's project page
+
+.my-box {
+  border: 0.1px solid #4444441c;
+  padding: 1rem;
+  box-shadow: var(--shadow-s);
+  margin-top: 1rem;
+  margin-right: 4px; // for shadow-s visibility
+  margin-left: 4px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  background-color: #fafafd;
+
+  @media (max-width: 768px) {
+    margin-left: 0rem;
+  }
+
+}
+
+ .dark .my-box{
+    background-color: #2a2e34 !important;
+    
+  }
+
+// for post and publications -- will apply later
+
+// .media.stream-item.view-compact  {
+//   padding: 1rem;
+//   box-shadow: var(--shadow-s);
+//   background-color: #fafafd;
+//   border-radius: 5px;
+//   margin-top: 1rem !important;
+//   margin-bottom: 0rem !important;
+
+// }
+
+// .dark .view-compact {
+//     background-color: #2a2e34 !important;
+// }
+
+
+
+  // parallax also on mobile 
+.parallax{
   background-attachment: fixed;
 }
 
@@ -240,6 +300,12 @@
   }
 }
 
+// news card now is more prominent
+
+.card-simple.view-card{
+  border: none !important;
+  box-shadow: var(--shadow-s) !important;
+}
 
 .img-hover-zoom {
   max-height: 300px;
@@ -249,6 +315,7 @@
   // Optional: Set a fixed height with object-fit if you want cropping
   // height: 1000px;
   overflow: hidden; // hide overflow if needed
+  box-shadow: var(--shadow-m) !important;
 }
 
 // card view light theme

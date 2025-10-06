@@ -33,10 +33,10 @@ sections:
 
   - block: collection
     content:
-      title: Последние новости
+      title: Новости
       subtitle: # "[Все новости >>](/ru/post)"
       text:
-      count: 3
+      count: 2
       filters:
         folders: 
           - post
