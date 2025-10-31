@@ -30,10 +30,10 @@
   translation: мин. для прочтения
 
 - id: previous
-  translation: Предыдущий пост
+  translation: Предыдущая новость
 
 - id: next
-  translation: Следующий пост
+  translation: Следующая новость
 
 - id: figure
   translation: 'Схема № %d:'
@@ -47,10 +47,10 @@
   translation: Показывать предпочтения
 
 - id: theme_light
-  translation: Светлая
+  translation: Светлая тема
 
 - id: theme_dark
-  translation: Темная
+  translation: Тёмная тема
 
 - id: theme_auto
   translation: Автоматически

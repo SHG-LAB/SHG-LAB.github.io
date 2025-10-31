@@ -9,16 +9,16 @@ name = "my"
   
 
   # Menu
-  menu_primary = "#eaeaee" # menu background
+  menu_primary = "#e6e6ea" # menu background
   menu_text = "#271c1c"
   menu_text_active = "#3148f6"
   menu_title = "#3148f6"
 
   # Home sections
-  home_section_odd = "#ececf0" # "#eaeaee" 
-  home_section_even =  "#f5f5f9" # "#f3f3f7"    # darker grey eaeaea lighter fafafa
+  home_section_odd = "#e6e6ea" # "#eaeaee" 
+  home_section_even =  "#f1f1f5" # "#f3f3f7"    # darker grey eaeaea lighter fafafa
 
-  background = "#f5f5f9" 
+  background = "#f1f1f5" 
 
   link = "#2838c6" # light "#2d42ff" # darker  "#1c4b8f"
   link_hover = "#3148f6"

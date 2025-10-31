@@ -26,5 +26,3 @@ image:
   - «Nonlinear-optical Diagnostics of materials and structures with inhomogeneous magnetisation»  -- [Т. В. Мурзина](/ru/author/татьяна-владимировна-мурзина)
   
   - «Optical pendellösung effect in anodic alumina 2D photonic crystals»  -- [В. Б. Новиков](/ru/author/владимир-борисович-новиков/)
-
-<br>

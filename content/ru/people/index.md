@@ -27,7 +27,27 @@ sections:
       show_role: true
       show_social: true
 
-      
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle: ''
+  #     text:
+  #   design:
+  #     columns: '1'
+  #     background:
+  #       image: 
+  #         filename: team1.jpg
+  #         filters:
+  #           brightness: 1
+  #         parallax: true
+  #         position: center
+  #         size: contain #actual # contain #cover
+  #         text_color_light: true
+  #     spacing:
+  #       padding: ['30px', '0', '30px', '0']
+  #     css_class: fullscreen
+
+
   - block: markdown
     content:
       title:

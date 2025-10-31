@@ -26,12 +26,12 @@
   margin-right: 4px; // for shadow-s visibility
   margin-left: 4px;
   margin-bottom: 4px;
-  border-radius: 5px;
+  border-radius: 4px;
   background-color: #fafafd;
 
-  @media (max-width: 768px) {
-    margin-left: 0rem;
-  }
+  // @media (max-width: 768px) {
+  //   margin-left: 0rem;
+  // }
 
 }
 
@@ -42,19 +42,29 @@
 
 // for post and publications -- will apply later
 
-// .media.stream-item.view-compact  {
-//   padding: 1rem;
-//   box-shadow: var(--shadow-s);
-//   background-color: #fafafd;
-//   border-radius: 5px;
-//   margin-top: 1rem !important;
-//   margin-bottom: 0rem !important;
+.media.stream-item.view-compact:not(#container-publications .media.stream-item.view-compact) {
+  padding: 1rem;
+  box-shadow: var(--shadow-s);
+  background-color: #fafafd;
+  border-radius: 4px;
+  margin-top: 1rem !important;
+  margin-bottom: 0rem !important;
+  min-height: 22vh; // костыль 
+}
 
-// }
+.stream-meta.article-metadata:not(#container-publications .stream-meta.article-metadata) {
+  margin-bottom: 0 !important;
+}
 
-// .dark .view-compact {
-//     background-color: #2a2e34 !important;
-// }
+.media.stream-item.view-compact img {
+    box-shadow: var(--shadow-s);
+    border-radius: 2px;
+    
+}
+
+.dark .media.stream-item.view-compact:not(#container-publications .media.stream-item.view-compact) {
+    background-color: #2a2e34 !important;
+}
 
 
 
@@ -99,10 +109,29 @@
   }
 }
 
+// view list shadow idk about results 
+
+// .view-list-item {
+//   box-shadow: var(--shadow-s);
+//   background-color: $sta-home-section-even;
+//   padding: 1rem;
+//   border-radius: 4px;
+//   margin-left: 4px;
+//   margin-right: 4px;
+//   margin-bottom: 20px !important;
+// }
+
+// .dark .view-list-item{
+//   background-color: #2a2e34 !important;
+// } 
+
+// .see-all{
+//   margin-left: 4px !important;
+// }
 
 .stream-item img,
 .media img {
-  border-radius: 3px;   
+  border-radius: 4px;   
   // object-fit: cover;     /* optional: keeps it neat if cropped */
 }
 
@@ -111,12 +140,11 @@
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: $sta-home-section-odd;
-  border: 2px solid $sta-home-section-even;
-  border-radius: 5px;
+  margin-top: 12px;
+  border-radius: 4px;
 }
 .dark .post-nav-item {
   background-color: $sta-dark-home-section-odd;
-  border: 2px solid $sta-dark-home-section-even;
 }
 
 // так появление скроллбара не будет сдвигать контент
@@ -132,7 +160,8 @@
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 3px;
+  border-radius: 4px;
+  box-shadow: var(--shadow-m);
 
   @media (max-width: 992px) {
     margin-top: 30px;
@@ -218,7 +247,7 @@
   height: auto; // maintain aspect ratio
   margin-top: 7rem;
   // padding-top: 6rem; //60px;
-  border-radius: 3px;
+  border-radius: 4px;
   @media (max-width: 768px) {
     display: none !important; // hide on mobile view
   }
@@ -236,6 +265,7 @@
   font-weight: 500;
   font-size: 2rem;
   padding-top: 0.5rem;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.400); // to improve visibility
   @media (min-width: 768px) {
      padding-top: 0.5rem;
   }
@@ -305,6 +335,7 @@
 .card-simple.view-card{
   border: none !important;
   box-shadow: var(--shadow-s) !important;
+  border-radius: 4px !important;
 }
 
 .img-hover-zoom {
@@ -320,7 +351,7 @@
 
 // card view light theme
 .card-simple {
-  background: #fbfbfb;
+  background: #fafafc;
 }
 // card view maint text
 a.summary-link {
@@ -339,6 +370,12 @@ a.summary-link {
 }
 ////////////
 
+
+// space under a featured image on a post page
+.featured-image{
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-m);
+}
 
 // publications list
 #container-publications .media.stream-item {
