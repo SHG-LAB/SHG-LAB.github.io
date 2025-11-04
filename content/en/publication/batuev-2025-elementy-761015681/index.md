@@ -7,10 +7,12 @@ authors:
 - И. И. Циняйкин
 - А. И. Майдыковский
 - Т. В. Мурзина
-date: '2025-01-01'
-publishDate: '2025-11-04T15:01:46.105785Z'
+date: '2025-05-01'
+publishDate: '2025-11-04T15:01:45.851482Z'
 publication_types:
 - article-journal
 publication: '*Moscow University Physics Bulletin*'
 doi: 10.55959/MSU0579-9392.80.2530401
+tags:
+  - Lithography
 ---
