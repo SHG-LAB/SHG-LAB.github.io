@@ -11,7 +11,7 @@ weight: 2
 superuser: false
 
 # Role/position
-role: доцент <br> д.ф-м.н.
+role: Профессор <br> д.ф-м.н.
 
 # Organizations/Affiliations
 organizations:

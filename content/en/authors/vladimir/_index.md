@@ -12,7 +12,7 @@ superuser: false
 weight: 3
 
 # Role/position
-role: Researcher <br> Ph.D.
+role: Senior Researcher <br> Ph.D.
 
 # Organizations/Affiliations
 organizations:

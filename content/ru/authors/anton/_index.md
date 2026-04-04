@@ -10,7 +10,7 @@ last_name: Майдыковский
 superuser: false
 weight: 1
 # Role/position
-role: старший научный сотрудник <br>  к.ф-м.н. 
+role: Cтарший научный сотрудник <br>  к.ф-м.н. 
 
 # Organizations/Affiliations
 organizations:
