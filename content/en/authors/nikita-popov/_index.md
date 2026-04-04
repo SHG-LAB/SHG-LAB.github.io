@@ -43,6 +43,9 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: building-columns
+    icon_pack: fas
+    link: 'https://istina.msu.ru/workers/738967246/all/'
   # - icon: envelope
   #   icon_pack: fas
   #   link: 'mailto:test@example.org'
@@ -73,5 +76,3 @@ highlight_name: false
 user_groups:
   - Students
 ---
-
-Основной текст о себе ... 

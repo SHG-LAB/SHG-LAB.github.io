@@ -36,7 +36,7 @@ sections:
       title: Новости
       subtitle: # "[Все новости >>](/ru/post)"
       text:
-      count: 2
+      count: 3
       filters:
         folders: 
           - post

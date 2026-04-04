@@ -11,7 +11,7 @@ weight: 2
 superuser: false
 
 # Role/position
-role: Assoc. Prof. <br> D. Sc.
+role: Prof. <br> D. Sc.
 
 # Organizations/Affiliations
 organizations:
