@@ -1,16 +1,14 @@
 settings:
   content:
-    # Preserve existing frontmatter fields that are not included
-    # in the CMS configuration.
+    # Preserve existing frontmatter fields that are not configured below.
     merge: true
 
 media:
-  # HugoBlox cover images.
-  #
-  # A selected image will be stored in:
+  # Cover images used by HugoBlox throu:contentReference[oaicite:0]{index=0}
+  # Repository location:
   # assets/media/news/example.jpg
   #
-  # Pages CMS will write this into frontmatter as:
+  # Value stored in frontmatter:
   # image:
   #   filename: news/example.jpg
   - name: news-covers
@@ -26,12 +24,12 @@ media:
       - webp
     rename: safe
 
-  # Images inserted into the Markdown body.
+  # Images inserted into the article body.
   #
-  # They are stored in:
+  # Repository location:
   # static/uploads/news/example.jpg
   #
-  # The public URL becomes:
+  # Public URL:
   # /uploads/news/example.jpg
   - name: news-body-images
     label: Images inside news articles
@@ -63,50 +61,89 @@ content:
         format: yaml-frontmatter
         subfolders: true
 
-        # Creates:
-        # content/en/post/generated-name/index.md
+        # The Post URL name field is automatically slugified.
         #
-        # The filename is editable while creating the post.
+        # Example input:
+        # Summer Conference 2026
+        #
+        # Result:
+        # content/en/post/summer-conference-2026/index.md
         filename:
-          template: "{primary}/index.md"
-          field: create
+          template: "{fields.post_id}/index.md"
+          field: false
 
         view:
           layout: tree
           node:
             filename: index.md
             hideDirs: others
+
           fields:
             - title
             - date
             - draft
+
           primary: title
+
           sort:
             - date
             - title
+
           search:
             - title
             - summary
             - body
+
           default:
             sort: date
             order: desc
 
-        # Prevent accidental deletion from the CMS.
-        # Posts can still be deleted directly through GitHub.
-        # operations:
-        #   delete: false
+        operations:
+          create: true
+
+          # Prevent editors from accidentally changing published URLs.
+          rename: false
+
+          # Show the Delete post option.
+          delete: true
 
         fields:
+          # This field must remain first so editors enter it before
+          # writing the rest of the post.
+          - name: post_id
+            label: Post URL name
+            type: string
+            required: true
+
+            description: >
+              Enter a short name using English letters. Pages CMS will
+              automatically format it for the URL. Use exactly the same value
+              when creating the Russian version. Example: Summer Conference
+              2026. This value creates the post folder, so do not change it
+              after publication.
+
+            pattern:
+              regex: "^[A-Za-z0-9]+(?:[ -][A-Za-z0-9]+)*$"
+              message: >
+                Use English letters, numbers, single spaces, and hyphens only.
+
+            options:
+              minlength: 3
+              maxlength: 80
+
           - name: title
             label: Title
             type: string
             required: true
+            options:
+              maxlength: 160
 
           - name: subtitle
             label: Subtitle
             type: string
             required: false
+            options:
+              maxlength: 200
 
           - name: date
             label: Publication date
@@ -119,13 +156,15 @@ content:
             label: Short summary
             type: text
             required: false
-            description: Used in news lists, previews and search results.
+            description: >
+              Used in news lists, previews, and search results.
 
           - name: draft
             label: Draft
             type: boolean
             default: false
-            description: Enable this to hide the post from the published website.
+            description: >
+              Enable this to hide the post from the published website.
 
           - name: image
             label: Cover image
@@ -137,13 +176,16 @@ content:
                 label: Cover image
                 type: image
                 required: false
+
                 options:
                   media: news-covers
+
                   extensions:
                     - jpg
                     - jpeg
                     - png
                     - webp
+
                   rename: safe
 
               - name: caption
@@ -155,25 +197,33 @@ content:
                 label: Alternative text
                 type: text
                 required: false
-                description: Describe the image for accessibility.
+                description: >
+                  Describe the image for screen readers.
 
               - name: focal_point
                 label: Focal point
                 type: select
                 default: Smart
+
                 options:
                   values:
                     - Smart
                     - Center
+                    - TopLeft
                     - Top
-                    - Bottom
+                    - TopRight
                     - Left
                     - Right
+                    - BottomLeft
+                    - Bottom
+                    - BottomRight
 
               - name: placement
                 label: Image placement
                 type: number
                 default: 1
+                description: >
+                  1: full column width; 2: out-set; 3: screen width.
 
               - name: preview_only
                 label: Show only in news previews
@@ -184,6 +234,7 @@ content:
             label: Article
             type: rich-text
             required: true
+
             options:
               format: markdown
               media: news-body-images
@@ -199,46 +250,90 @@ content:
         format: yaml-frontmatter
         subfolders: true
 
-        # Creates:
-        # content/ru/post/generated-name/index.md
+        # Use exactly the same Post URL name as in the English version.
+        #
+        # Example input:
+        # Summer Conference 2026
+        #
+        # Result:
+        # content/ru/post/summer-conference-2026/index.md
         filename:
-          template: "{primary}/index.md"
-          field: create
+          template: "{fields.post_id}/index.md"
+          field: false
 
         view:
           layout: tree
           node:
             filename: index.md
             hideDirs: others
+
           fields:
             - title
             - date
             - draft
+
           primary: title
+
           sort:
             - date
             - title
+
           search:
             - title
             - summary
             - body
+
           default:
             sort: date
             order: desc
 
-        # operations:
-        #   delete: false
+        operations:
+          create: true
+
+          # Prevent accidental changes to published URLs.
+          rename: false
+
+          # Show the delete option.
+          delete: true
 
         fields:
+          # Поле находится в начале формы, чтобы редактор сначала
+          # указал адрес новости.
+          - name: post_id
+            label: URL-имя новости
+            type: string
+            required: true
+
+            description: >
+              Введите короткое название английскими буквами. Pages CMS
+              автоматически преобразует его в формат URL. Используйте точно
+              такое же значение, как в английской версии. Пример: Summer
+              Conference 2026. Это значение создаёт папку новости, поэтому
+              после публикации его не следует менять.
+
+            pattern:
+              regex: "^[A-Za-z0-9]+(?:[ -][A-Za-z0-9]+)*$"
+              message: >
+                Используйте только английские буквы, цифры, одиночные пробелы
+                и дефисы.
+
+            options:
+              minlength: 3
+              maxlength: 80
+
           - name: title
             label: Заголовок
             type: string
             required: true
+            options:
+              maxlength: 160
 
           - name: subtitle
             label: Подзаголовок
             type: string
             required: false
+            options:
+              maxlength: 200
 
           - name: date
             label: Дата публикации
@@ -251,13 +346,15 @@ content:
             label: Краткое описание
             type: text
             required: false
-            description: Используется в списке новостей и результатах поиска.
+            description: >
+              Используется в списке новостей и результатах поиска.
 
           - name: draft
             label: Черновик
             type: boolean
             default: false
-            description: Включите, чтобы скрыть материал на опубликованном сайте.
+            description: >
+              Включите, чтобы скрыть материал на опубликованном сайте.
 
           - name: image
             label: Обложка
@@ -269,13 +366,16 @@ content:
                 label: Изображение обложки
                 type: image
                 required: false
+
                 options:
                   media: news-covers
+
                   extensions:
                     - jpg
                     - jpeg
                     - png
                     - webp
+
                   rename: safe
 
               - name: caption
@@ -287,25 +387,34 @@ content:
                 label: Альтернативный текст
                 type: text
                 required: false
-                description: Описание изображения для доступности.
+                description: >
+                  Опишите изображение для программ чтения с экрана.
 
               - name: focal_point
                 label: Точка фокусировки
                 type: select
                 default: Smart
+
                 options:
                   values:
                     - Smart
                     - Center
+                    - TopLeft
                     - Top
-                    - Bottom
+                    - TopRight
                     - Left
                     - Right
+                    - BottomLeft
+                    - Bottom
+                    - BottomRight
 
               - name: placement
                 label: Размещение изображения
                 type: number
                 default: 1
+                description: >
+                  1: по ширине колонки; 2: с выходом за колонку;
+                  3: по ширине экрана.
 
               - name: preview_only
                 label: Показывать только в списке новостей
@@ -316,6 +425,7 @@ content:
             label: Текст новости
             type: rich-text
             required: true
+
             options:
               format: markdown
               media: news-body-images
