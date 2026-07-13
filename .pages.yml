@@ -1,0 +1,322 @@
+settings:
+  content:
+    # Preserve existing frontmatter fields that are not included
+    # in the CMS configuration.
+    merge: true
+
+media:
+  # HugoBlox cover images.
+  #
+  # A selected image will be stored in:
+  # assets/media/news/example.jpg
+  #
+  # Pages CMS will write this into frontmatter as:
+  # image:
+  #   filename: news/example.jpg
+  - name: news-covers
+    label: News cover images
+    input: assets/media/news
+    output: news
+    categories:
+      - image
+    extensions:
+      - jpg
+      - jpeg
+      - png
+      - webp
+    rename: safe
+
+  # Images inserted into the Markdown body.
+  #
+  # They are stored in:
+  # static/uploads/news/example.jpg
+  #
+  # The public URL becomes:
+  # /uploads/news/example.jpg
+  - name: news-body-images
+    label: Images inside news articles
+    input: static/uploads/news
+    output: /uploads/news
+    categories:
+      - image
+    extensions:
+      - jpg
+      - jpeg
+      - png
+      - webp
+      - gif
+    rename: safe
+
+content:
+  - name: news
+    label: News
+    type: group
+
+    items:
+      # ============================================================
+      # ENGLISH NEWS
+      # ============================================================
+      - name: news-en
+        label: English news
+        type: collection
+        path: content/en/post
+        format: yaml-frontmatter
+        subfolders: true
+
+        # Creates:
+        # content/en/post/generated-name/index.md
+        #
+        # The filename is editable while creating the post.
+        filename:
+          template: "{primary}/index.md"
+          field: create
+
+        view:
+          layout: tree
+          node:
+            filename: index.md
+            hideDirs: others
+          fields:
+            - title
+            - date
+            - draft
+          primary: title
+          sort:
+            - date
+            - title
+          search:
+            - title
+            - summary
+            - body
+          default:
+            sort: date
+            order: desc
+
+        # Prevent accidental deletion from the CMS.
+        # Posts can still be deleted directly through GitHub.
+        operations:
+          delete: false
+
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+
+          - name: subtitle
+            label: Subtitle
+            type: string
+            required: false
+
+          - name: date
+            label: Publication date
+            type: date
+            required: true
+            options:
+              format: yyyy-MM-dd
+
+          - name: summary
+            label: Short summary
+            type: text
+            required: false
+            description: Used in news lists, previews and search results.
+
+          - name: draft
+            label: Draft
+            type: boolean
+            default: false
+            description: Enable this to hide the post from the published website.
+
+          - name: image
+            label: Cover image
+            type: object
+            required: false
+
+            fields:
+              - name: filename
+                label: Cover image
+                type: image
+                required: false
+                options:
+                  media: news-covers
+                  extensions:
+                    - jpg
+                    - jpeg
+                    - png
+                    - webp
+                  rename: safe
+
+              - name: caption
+                label: Image caption
+                type: string
+                required: false
+
+              - name: alt_text
+                label: Alternative text
+                type: text
+                required: false
+                description: Describe the image for accessibility.
+
+              - name: focal_point
+                label: Focal point
+                type: select
+                default: Smart
+                options:
+                  values:
+                    - Smart
+                    - Center
+                    - Top
+                    - Bottom
+                    - Left
+                    - Right
+
+              - name: placement
+                label: Image placement
+                type: number
+                default: 1
+
+              - name: preview_only
+                label: Show only in news previews
+                type: boolean
+                default: false
+
+          - name: body
+            label: Article
+            type: rich-text
+            required: true
+            options:
+              format: markdown
+              media: news-body-images
+              switcher: true
+
+      # ============================================================
+      # RUSSIAN NEWS
+      # ============================================================
+      - name: news-ru
+        label: Russian news
+        type: collection
+        path: content/ru/post
+        format: yaml-frontmatter
+        subfolders: true
+
+        # Creates:
+        # content/ru/post/generated-name/index.md
+        filename:
+          template: "{primary}/index.md"
+          field: create
+
+        view:
+          layout: tree
+          node:
+            filename: index.md
+            hideDirs: others
+          fields:
+            - title
+            - date
+            - draft
+          primary: title
+          sort:
+            - date
+            - title
+          search:
+            - title
+            - summary
+            - body
+          default:
+            sort: date
+            order: desc
+
+        operations:
+          delete: false
+
+        fields:
+          - name: title
+            label: Заголовок
+            type: string
+            required: true
+
+          - name: subtitle
+            label: Подзаголовок
+            type: string
+            required: false
+
+          - name: date
+            label: Дата публикации
+            type: date
+            required: true
+            options:
+              format: yyyy-MM-dd
+
+          - name: summary
+            label: Краткое описание
+            type: text
+            required: false
+            description: Используется в списке новостей и результатах поиска.
+
+          - name: draft
+            label: Черновик
+            type: boolean
+            default: false
+            description: Включите, чтобы скрыть материал на опубликованном сайте.
+
+          - name: image
+            label: Обложка
+            type: object
+            required: false
+
+            fields:
+              - name: filename
+                label: Изображение обложки
+                type: image
+                required: false
+                options:
+                  media: news-covers
+                  extensions:
+                    - jpg
+                    - jpeg
+                    - png
+                    - webp
+                  rename: safe
+
+              - name: caption
+                label: Подпись к изображению
+                type: string
+                required: false
+
+              - name: alt_text
+                label: Альтернативный текст
+                type: text
+                required: false
+                description: Описание изображения для доступности.
+
+              - name: focal_point
+                label: Точка фокусировки
+                type: select
+                default: Smart
+                options:
+                  values:
+                    - Smart
+                    - Center
+                    - Top
+                    - Bottom
+                    - Left
+                    - Right
+
+              - name: placement
+                label: Размещение изображения
+                type: number
+                default: 1
+
+              - name: preview_only
+                label: Показывать только в списке новостей
+                type: boolean
+                default: false
+
+          - name: body
+            label: Текст новости
+            type: rich-text
+            required: true
+            options:
+              format: markdown
+              media: news-body-images
+              switcher: true

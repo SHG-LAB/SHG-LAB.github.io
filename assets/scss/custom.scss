@@ -49,8 +49,54 @@
   border-radius: 4px;
   margin-top: 1rem !important;
   margin-bottom: 0rem !important;
-  min-height: 22vh; // костыль 
+  min-height: 25vh; // костыль 
+
+  // tablet view adjustments
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    min-height: 15vh; // костыль 
+
+    /* Reduce excessive padding/spacing */
+    .page-body .media.stream-item.view-compact {
+      padding: 12px;
+    }
+
+    /* Make text slightly larger to fill space better */
+    .page-body .article-title {
+      font-size: 1.25rem;
+    }
+
+    .page-body .article-style {
+      font-size: 1rem;
+    }
+
+    /* Scale image up so it matches the larger card */
+    .page-body .media.stream-item.view-compact .ml-3 img {
+      width: 200px;
+      height: auto;
+    }
+  }
 }
+
+// date at the bottom of the card, next 3 rules are for that
+/* Make the whole item a flex row */
+.page-body .media.stream-item.view-compact:not(#container-publications .media.stream-item.view-compact) {
+  display: flex;
+  align-items: stretch; /* ensures equal height columns */
+}
+
+/* Make the text column a vertical flex container */
+.page-body .media.stream-item.view-compact .media-body:not(#container-publications .media.stream-item.view-compact) {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Push metadata to the bottom of the text column */
+.page-body .media.stream-item.view-compact 
+.media-body .stream-meta.article-metadata:not(#container-publications .media.stream-item.view-compact) {
+  margin-top: auto;
+}
+
 
 .stream-meta.article-metadata:not(#container-publications .stream-meta.article-metadata) {
   margin-bottom: 0 !important;
