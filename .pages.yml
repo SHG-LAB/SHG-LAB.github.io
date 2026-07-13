@@ -94,8 +94,8 @@ content:
 
         # Prevent accidental deletion from the CMS.
         # Posts can still be deleted directly through GitHub.
-        operations:
-          delete: false
+        # operations:
+        #   delete: false
 
         fields:
           - name: title
@@ -226,8 +226,8 @@ content:
             sort: date
             order: desc
 
-        operations:
-          delete: false
+        # operations:
+        #   delete: false
 
         fields:
           - name: title
