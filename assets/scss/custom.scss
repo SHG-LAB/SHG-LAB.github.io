@@ -1,17 +1,128 @@
 // custom box shadows
 :root {
-  --shadow-s: 
-  inset 0 1px 2px #ffffff30, /* top highlight */
-  0 1px 2px #00000030, /* bottom shadow */
-  0 2px 4px #00000015; /* soft shadow */
-  --shadow-m: 
-  inset 0 1px 2px #ffffff50, /* top highlight */
-  0 2px 4px #00000030, /* bottom shadow */
-  0 4px 8px #00000015; /* soft shadow */
+  --publication-card-bg: #fafafd;
+  --publication-card-hover-bg: rgba(231, 232, 248, 1);
+
+}
+.dark {
+  --publication-card-bg: #2a2e34;
+  --publication-card-hover-bg: #303a5c; // #222e42; //
+}
+// test boxes on publications page
+
+:root {
+  --shadow-s:
+    inset 0 1px 0 rgb(255 255 255 / 18%),
+    0 1px 2px rgb(0 0 0 / 14%),
+    0 3px 8px rgb(0 0 0 / 8%);
+
+  --shadow-m:
+    inset 0 1px 0 rgb(255 255 255 / 20%),
+    0 2px 3px rgb(0 0 0 / 16%),
+    0 5px 12px rgb(0 0 0 / 10%);
+
   --shadow-l:
-  inset 0 1px 2px #ffffff70, /* top highlight */
-  0 4px 6px #00000050, /* bottom shadow */
-  0 6px 10px #00000020; /* soft shadow */
+    inset 0 1px 0 rgb(255 255 255 / 22%),
+    0 2px 4px rgb(0 0 0 / 18%),
+    0 8px 18px rgb(0 0 0 / 12%);
+}
+
+.dark {
+  --shadow-s:
+    inset 0 1px 0 rgb(255 255 255 / 8%),
+    0 1px 2px rgb(0 0 0 / 30%),
+    0 4px 10px rgb(0 0 0 / 20%);
+
+  --shadow-m:
+    inset 0 1px 0 rgb(255 255 255 / 10%),
+    0 2px 3px rgb(0 0 0 / 34%),
+    0 6px 14px rgb(0 0 0 / 24%);
+
+  --shadow-l:
+    inset 0 1px 0 rgb(255 255 255 / 12%),
+    0 2px 4px rgb(0 0 0 / 38%),
+    0 8px 20px rgb(0 0 0 / 28%);
+}
+
+
+
+#container-publications .media.stream-item {
+  position: relative;
+
+  margin: 0.2rem 0 0.8rem !important;
+  padding: 1rem 1rem 0.5rem;
+
+  background-color: var(--publication-card-bg);
+  border-radius: 4px;
+  box-shadow: var(--shadow-s);
+
+  transition:
+    transform 200ms ease,
+    background-color 200ms ease,
+    box-shadow 200ms ease;
+}
+
+/* Card hover */
+@media (hover: hover) and (pointer: fine) {
+  #container-publications .media.stream-item:hover {
+    background-color: var(--publication-card-hover-bg);
+    box-shadow: var(--shadow-s);
+  }
+}
+
+/* The title link stretches across the card */
+#container-publications .publication-card-link {
+  position: static;
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/*
+ * Because the pseudo-element belongs to the title link,
+ * hovering anywhere over the card counts as hovering that link.
+ * This prevents the title from becoming underlined.
+ */
+#container-publications .publication-card-link:hover,
+#container-publications .publication-card-link:focus,
+#container-publications .publication-card-link:active {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+#container-publications .media.stream-item:active {
+  transform: translateY(2px) scale(0.99);
+}
+
+#container-publications .publication-card-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  border: 0;
+  border-radius: inherit;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* Keep real links, tags and buttons above the stretched link */
+#container-publications .media.stream-item a:not(.publication-card-link),
+#container-publications .media.stream-item button,
+#container-publications .media.stream-item [role="button"] {
+  position: relative;
+  z-index: 2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #container-publications .media.stream-item {
+    transition: none;
+  }
 }
 
 
@@ -40,78 +151,141 @@
     
   }
 
-// for post and publications -- will apply later
+// Standard compact-view cards (posts, events, and any other content using compact.html)
+// Requires `compact-card` on the outer item and `compact-card-link` on its title link.
 
-.media.stream-item.view-compact:not(#container-publications .media.stream-item.view-compact) {
-  padding: 1rem;
-  box-shadow: var(--shadow-s);
-  background-color: #fafafd;
-  border-radius: 4px;
-  margin-top: 1rem !important;
-  margin-bottom: 0rem !important;
-  min-height: 25vh; // костыль 
-
-  // tablet view adjustments
-  @media (min-width: 768px) and (max-width: 1024px) {
-
-    min-height: 15vh; // костыль 
-
-    /* Reduce excessive padding/spacing */
-    .page-body .media.stream-item.view-compact {
-      padding: 12px;
-    }
-
-    /* Make text slightly larger to fill space better */
-    .page-body .article-title {
-      font-size: 1.25rem;
-    }
-
-    .page-body .article-style {
-      font-size: 1rem;
-    }
-
-    /* Scale image up so it matches the larger card */
-    .page-body .media.stream-item.view-compact .ml-3 img {
-      width: 200px;
-      height: auto;
-    }
-  }
-}
-
-// date at the bottom of the card, next 3 rules are for that
-/* Make the whole item a flex row */
-.page-body .media.stream-item.view-compact:not(#container-publications .media.stream-item.view-compact) {
+.media.stream-item.view-compact.compact-card {
+  position: relative;
   display: flex;
-  align-items: stretch; /* ensures equal height columns */
+  align-items: stretch;
+
+  min-height: 15vh;
+  margin: 1rem 0 0 !important;
+  padding: 1rem;
+
+  background-color: var(--publication-card-bg);
+  border-radius: 4px;
+  box-shadow: var(--shadow-s);
+
+  transition:
+    transform 200ms ease,
+    background-color 200ms ease,
+    box-shadow 200ms ease;
 }
 
-/* Make the text column a vertical flex container */
-.page-body .media.stream-item.view-compact .media-body:not(#container-publications .media.stream-item.view-compact) {
+/* Make the text column fill the card and keep metadata at the bottom. */
+.compact-card .media-body {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
-/* Push metadata to the bottom of the text column */
-.page-body .media.stream-item.view-compact 
-.media-body .stream-meta.article-metadata:not(#container-publications .media.stream-item.view-compact) {
+.compact-card .stream-meta.article-metadata {
   margin-top: auto;
-}
-
-
-.stream-meta.article-metadata:not(#container-publications .stream-meta.article-metadata) {
   margin-bottom: 0 !important;
 }
 
-.media.stream-item.view-compact img {
+/* Match the publication-card hover and pressed states. */
+@media (hover: hover) and (pointer: fine) {
+   .media.stream-item.view-compact.compact-card:hover {
+    background-color: var(--publication-card-hover-bg);
     box-shadow: var(--shadow-s);
-    border-radius: 2px;
-    
+  }
 }
 
-.dark .media.stream-item.view-compact:not(#container-publications .media.stream-item.view-compact) {
-    background-color: #2a2e34 !important;
+.compact-card:active {
+  transform: translateY(2px) scale(0.99);
 }
 
+.media.stream-item.view-compact.compact-card:active {
+  transform: translateY(2px) scale(0.99);
+}
+
+/* Stretch the title link over the card without underlining it on card hover. */
+.compact-card-link {
+  position: static;
+
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.compact-card-link:hover,
+.compact-card-link:focus,
+.compact-card-link:active {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.compact-card-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  border: 0;
+  border-radius: inherit;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* Keep the image, summary, tags, author links, and buttons independently clickable. */
+.compact-card a:not(.compact-card-link),
+.compact-card button,
+.compact-card [role="button"] {
+  position: relative;
+  z-index: 2;
+}
+
+.compact-card img {
+  border-radius: 4px;
+  box-shadow: var(--shadow-s);
+}
+
+@media (min-width: 1024px) {
+  .media.stream-item.view-compact.compact-card {
+    min-height: 22.5vh;
+  }
+  .compact-card .article-title {
+    padding-bottom: 0.5rem !important;
+  }
+
+}
+/* Tablet adjustments. */
+@media (max-width: 1024px) {
+  .media.stream-item.view-compact.compact-card {
+    min-height: 20vh;
+    // padding: 12px;
+  }
+
+  .compact-card .article-title {
+    font-size: 1.5rem !important;
+    padding-bottom: 1.0rem !important;
+  }
+
+  .compact-card .article-style {
+    font-size: 1rem !important;
+    // padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+  }
+
+  .compact-card .ml-3 img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .compact-card {
+    transition: none;
+  }
+}
 
 
   // parallax also on mobile 
@@ -433,10 +607,10 @@ a.summary-link {
     // background-color: red;
   }
 }
-publications list and each publication page
-.article-metadata {
-  font-size: 1rem; //larger font size for autors, venue and date
-}
+// publications list and each publication page
+// .article-metadata {
+//   font-size: 1rem; //larger font size for autors, venue and date
+// }
 
 .article-tags {
   margin-top: 0.5rem; //smaller margin top (was 1.2)
@@ -530,8 +704,16 @@ body.dark,
 }
 
 
+/* Cleaner navbar separation */
+#navbar-main {
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
 
-
+.dark #navbar-main {
+  box-shadow: none !important;
+  border-bottom-color: rgba(255, 255, 255, 0.10);
+}
 
 // #profile-page .article-widget
 // {
