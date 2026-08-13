@@ -10,11 +10,12 @@ share: false
 sections:
   # A section to display blog posts
   - block: collection
-    id: section-1
+    id: research-topics-block
     content:
       title: Научные направления лаборатории
       subtitle: ㅤ
-      text: "Исследования нашей лаборатории могут быть условно разделены на следующие направления: <br>  <br>" 
+      text:
+      # "Исследования нашей лаборатории могут быть условно разделены на следующие направления: <br>  <br>" 
 
       # Display content from the `content/post/` folder
       filters:
@@ -25,7 +26,7 @@ sections:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       # Choose your content listing view - here we use the `showcase` view
-      view:  list #publications #publications # #card #list #compact  # showcase  masonry
+      view:  compact #publications #publications # #card #list #compact  # showcase  masonry
       # For the Showcase view, do you want to flip alternate rows?
       flip_alt_rows: false
 
@@ -33,9 +34,8 @@ sections:
   - block: markdown
     content:
       title:
-      subtitle: ""
       text: ‎
-          ![](team1.jpg)
+          <div style="display:flex; justify-content:center; align-items:center;"> ![](team1.jpg) </div>
     # design:
     #   columns: "1"
     #   background:

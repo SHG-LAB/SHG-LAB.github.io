@@ -1,6 +1,6 @@
 ---
 title: Undergraduate Research Project Topics
-subtitle: For Second-Year Students 
+subtitle: # For Second-Year Students 
  # Курсовые работы выполняются под руководством одного из сотрудников лаборатории.
 
 show_date: False
@@ -13,11 +13,8 @@ show_breadcrumb: false
 #     caption: # 'Это подпись к баннеру'
 #     image: lab_cover_test.jpg # тут нужно написать то, что идет после assets/media/
 ---
-Our laboratory is open to students interested in research work.  
-If you are interested in one of the topics presented, you can contact the staff member responsible for the corresponding area,  
-or simply drop by to learn more about our activities and meet the team.
+Undergraduate students in their first years of study can choose from the course project topics offered by our laboratory. To learn more and discuss work on a particular topic, contact its supervisor or visit us.
 
-We will be happy to answer your questions and discuss possible collaboration!
 
 #### [Nanoplasmonics](/en/research/plasmonics)
 

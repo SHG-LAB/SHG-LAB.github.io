@@ -101,7 +101,7 @@ sections:
       title: "Связаться с нами"
       subtitle: 
       text: 
-      email: contact+q@shg.ru
+      email: contact@shg.ru
       phone: +7 495 939-36-69
       address:
         street: Ленинские горы, д. 1, стр. 62

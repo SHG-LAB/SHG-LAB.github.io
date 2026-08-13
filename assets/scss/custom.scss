@@ -140,9 +140,6 @@
   border-radius: 4px;
   background-color: #fafafd;
 
-  // @media (max-width: 768px) {
-  //   margin-left: 0rem;
-  // }
 
 }
 
@@ -150,6 +147,11 @@
     background-color: #2a2e34 !important;
     
   }
+.my-box ul{
+  @media (max-width: 768px) {
+    padding-left: 1rem !important;
+  }
+}
 
 // Standard compact-view cards (posts, events, and any other content using compact.html)
 // Requires `compact-card` on the outer item and `compact-card-link` on its title link.
@@ -265,12 +267,12 @@
   }
 
   .compact-card .article-title {
-    font-size: 1.5rem !important;
+    // font-size: 1.5rem !important;
     padding-bottom: 1.0rem !important;
   }
 
   .compact-card .article-style {
-    font-size: 1rem !important;
+    // font-size: 1rem !important;
     // padding-top: 0.8rem !important;
     padding-bottom: 0.8rem !important;
   }
@@ -395,6 +397,32 @@
     margin-right: auto;
   
     }
+}
+
+// Research collection: match the width of the post archive
+#research-topics-block {
+  // Override your global .home-section horizontal padding
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#research-topics-block > .container {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#research-topics-block > .container > .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#research-topics-block > .container > .row > .col-12 {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #contact_us{
@@ -713,6 +741,30 @@ body.dark,
 .dark #navbar-main {
   box-shadow: none !important;
   border-bottom-color: rgba(255, 255, 255, 0.10);
+}
+
+.theme-toggle {
+  cursor: pointer;
+}
+
+.pl-md-2 {
+  margin-left: 2rem !important; // theme and language toggle buttons on navbar
+}
+
+.wg-people .avatar-circle {
+  box-shadow: var(--shadow-s);
+  transition: box-shadow 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.wg-people .avatar-circle:hover  {
+  box-shadow: var(--shadow-m);
+}
+
+.wg-people .avatar-circle:active  {
+  box-shadow: var(--shadow-s);
+  
+  transition: box-shadow 0.1s ease-in-out, transform 0.1s ease-in-out;
+  transform: translateY(2px) scale(0.99);
 }
 
 // #profile-page .article-widget
