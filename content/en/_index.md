@@ -77,7 +77,7 @@ sections:
       title: "Contacts"
       subtitle: 
       text: 
-      email: contact+q@shg.ru
+      email: contact@shg.ru
       phone: +7 495 939-36-69
       address:
         street: Leninskie Gory, 1с62
