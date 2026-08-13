@@ -167,23 +167,70 @@
 
         {{ $show_day_night := site.Params.header.navbar.show_day_night | default true }}
         {{ $has_day_night_themes := (and site.Params.appearance.theme_day site.Params.appearance.theme_night) }}
+
         {{ if and $has_day_night_themes $show_day_night }}
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="{{ i18n "theme_selector" | default "Display preferences" }}">
+
+        <li class="nav-item">
+          <a
+            href="#"
+            id="theme-toggle"
+            class="nav-link theme-toggle"
+            role="button"
+            aria-label="Switch to dark theme"
+            title="Switch to dark theme"
+          >
             <i class="fas fa-moon" aria-hidden="true"></i>
           </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>{{ i18n "theme_light" | default "Light" }}</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>{{ i18n "theme_dark" | default "Dark" }}</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>{{ i18n "theme_auto" | default "Automatic" }}</span>
-            </a>
+
+          {{/* Keep these hidden so Wowchemy's existing theme JS still works. */}}
+          <div class="d-none" aria-hidden="true">
+            <a href="#" class="js-set-theme-light" tabindex="-1"></a>
+            <a href="#" class="js-set-theme-dark" tabindex="-1"></a>
+            <a href="#" class="js-set-theme-auto" tabindex="-1"></a>
           </div>
         </li>
+
+        <script>
+        (function () {
+          const toggle = document.getElementById('theme-toggle');
+          if (!toggle) return;
+
+          const icon = toggle.querySelector('i');
+
+          function updateIcon(isDark) {
+            icon.classList.toggle('fa-sun', isDark);
+            icon.classList.toggle('fa-moon', !isDark);
+
+            const label = isDark
+              ? 'Switch to light theme'
+              : 'Switch to dark theme';
+
+            toggle.setAttribute('aria-label', label);
+            toggle.setAttribute('title', label);
+          }
+
+          toggle.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            const isDark = document.body.classList.contains('dark');
+
+            const target = document.querySelector(
+              isDark ? '.js-set-theme-light' : '.js-set-theme-dark'
+            );
+
+            if (target) {
+              target.click();
+            }
+          });
+
+          document.addEventListener('wcThemeChange', function (event) {
+            updateIcon(event.detail.isDarkTheme());
+          });
+
+          updateIcon(document.body.classList.contains('dark'));
+        })();
+        </script>
+
         {{ end }}
 
         {{ $show_translations := site.Params.header.navbar.show_translations | default true }}
