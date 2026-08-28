@@ -481,13 +481,21 @@
 // big screen hero section height is at least 2/3 of viewport height
 @media (min-width: 768px) {
   #section-hero {
-    min-height: 80vh;
+    // min-height: 60vh;
+    min-height: clamp(620px, 72svh, 740px) !important;
   }
   .hero-links-text{
-    padding-bottom: 1rem;
+    padding-bottom: 3.5rem !important;
     padding-top: 3rem !important;
   }
 }
+
+// @media (min-width: 1200px) {
+//   #section-hero {
+//     display: flex !important;
+//     align-items: center !important;
+//   }
+// }
 
 // hero image settings -- change when image is added
 .hero-media img {
@@ -503,7 +511,7 @@
 // probably delete after image added 
 @media (max-width: 768px) {
   #section-hero{
-    min-height: 66vh;
+    min-height: 60vh;
   }
 }
 
@@ -512,10 +520,12 @@
   text-align:left; 
   font-weight: 500;
   font-size: 2rem;
+  letter-spacing: -0.01em;
+  margin: 0;
   padding-top: 0.5rem;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.400); // to improve visibility
   @media (min-width: 768px) {
-     padding-top: 0.5rem;
+     padding-top: 1.0rem;
   }
 }
 
@@ -525,19 +535,143 @@
   font-size: 1.125rem !important;
   line-height: 1.6rem !important;
   font-weight: 300;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   @media (max-width: 768px) {
-    padding-top: 2.5rem; // mobile view
+    padding-top: 1.5rem; // mobile view
   }
 }
 
-// hero links 
-.hero-links-text{
-  font-size: 1rem;
-  line-height: 1.7rem;
-  text-decoration: underline; //none;  
-  text-underline-offset: 0.25rem; 
-  padding-top: 1.5rem
+
+
+
+// hero CTA buttons
+
+#section-hero .hero-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 2rem;
+}
+
+#section-hero .hero-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 42px;
+  padding: 0.55rem 1.15rem;
+
+  border: 1px solid #fff;
+  border-radius: 4px;
+
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none !important;
+
+  transition:
+    background-color 150ms ease,
+    color 150ms ease,
+    border-color 150ms ease,
+    transform 100ms ease;
+  
+}
+
+
+// primary
+#section-hero .hero-action-secondary {
+  background:  #0c052350; //  #E6E6EA;
+  border-color: #22222200; //  #E6E6EA;
+  color: #fff !important; //  #354bcf !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  #section-hero .hero-action-primary:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #304bdf !important;
+  }
+}
+
+
+// secondary
+#section-hero .hero-action-primary {
+  background: transparent;
+  border-color: #E6E6EA;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  #section-hero .hero-action-secondary:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #304bdf !important;
+  }
+}
+
+
+// keyboard focus
+#section-hero .hero-action:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+
+// pressed state
+#section-hero .hero-action:active {
+  transform: translateY(1px);
+}
+
+
+// mobile
+@media (max-width: 768px) {
+  #section-hero .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+
+    margin-top: 1.75rem;
+  }
+
+  #section-hero .hero-action {
+    width: 100%;
+    min-height: 44px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+
+// hero links
+.hero-links-text {
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  // text-decoration: none !important;
+  // text-underline-offset: 0.25rem;
+  padding-top: 2rem;
+
+  @media (max-width: 768px) {
+    padding-top: 2rem;
+  }
+}
+
+.hero-links-text a {
+  text-decoration: none !important;
+  // padding: 0.25rem 0.5rem;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, text-decoration 0.15s ease-in-out;
+}
+
+.hero-links-text a:hover,
+.hero-links-text a:focus-visible,
+.hero-links-text a:active {
+  text-decoration: underline !important;
+  text-underline-offset: 0.25rem;
+  color: #fcfcfc !important;
+  // background: rgba(255, 255, 255, 0.08);
+  // border-radius: 2px;
+  
 }
 
 //////// End Hero section /////////
@@ -856,3 +990,15 @@ body.dark,
 //     max-width: 100% !important;
 //     box-shadow: 0 -0.125rem 0.25rem 0 rgba(255, 255, 255, 0.11);
 // }
+.card-simple .article-style,
+.compact-card .article-style {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 58em) {
+  .card-simple .article-style,
+  .compact-card .article-style {
+    font-size: 1rem !important;
+  }
+}
