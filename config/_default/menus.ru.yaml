@@ -17,16 +17,19 @@ main:
     url: publication
     weight: 50
   - name: Студентам
-    identifier: students
-    weight: 60 
-  - name: Курсовые работы  
-    parent: students
     url: for-students/my-first-project
-    weight: 2
+    weight: 60
+  # - name: Студентам
+  #   url: students
+  #   weight: 60 
+  # - name: Курсовые работы  
+  #   parent: students
+  #   url: for-students/my-first-project
+  #   weight: 2
   # - name: Учебные курсы 
   #   parent: students
   #   url: for-students/courses/
-    weight: 1
+  #   weight: 1
   - name: Контакты # Contact
     url: /#contact_us
     weight: 70

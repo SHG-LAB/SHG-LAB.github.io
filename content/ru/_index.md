@@ -15,7 +15,20 @@ sections:
             opacity: 100
       text: | 
         Мы исследуем линейные и нелинейные оптические и магнитооптические эффекты в микроструктурах, метаматериалах и фотонных кристаллах, а также изготавливаем микроструктуры методом двухфотонной лазерной литографии. 
-        <p class="hero-links-text">  <a href="https://www.phys.msu.ru" target="_blank" style="color: #d1d3d7;">Физический факультет МГУ</a> <br>  <a href="https://quantum.phys.msu.ru/ru"  target="_blank" style="color: #d1d3d7;">Кафедра квантовой электроники</a> </p>
+        <div class="hero-actions">
+          <a class="hero-action hero-action-primary" href="./research/">
+            Направления исследований
+          </a>
+          <a class="hero-action hero-action-secondary" href="./for-students/my-first-project/">
+            Темы курсовых работ
+          </a>
+        </div>
+
+        <p class="hero-links-text">
+          <a href="https://quantum.phys.msu.ru/ru" target="_blank" rel="noopener" style="color: #d1d3d7;">Кафедра квантовой электроники</a>
+          <br><a href="https://www.phys.msu.ru" target="_blank" rel="noopener" style="color: #d1d3d7;">Физический факультет МГУ</a>
+          
+        </p>
     design:
       # Choose an optional background color, gradient, image, or video
       background:

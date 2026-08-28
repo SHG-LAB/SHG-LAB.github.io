@@ -47,24 +47,11 @@ sections:
   #       padding: ['30px', '0', '30px', '0']
   #     css_class: fullscreen
 
-
   - block: markdown
     content:
       title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: Logo2.gif
-          filters:
-            brightness: 1
-          parallax: true
-          position: center
-          size: actual # contain #cover
-          text_color_light: true
-      spacing:
-        padding: ['30px', '0', '30px', '0']
-      css_class: fullscreen
+      text: ‎
+          <div style="display:flex; justify-content:center; align-items:center;"> ![](team1.jpg) </div>
+
+  
 ---

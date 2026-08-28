@@ -13,7 +13,6 @@ sections:
     id: research-topics-block
     content:
       title: Научные направления лаборатории
-      subtitle: ㅤ
       text:
       # "Исследования нашей лаборатории могут быть условно разделены на следующие направления: <br>  <br>" 
 
@@ -30,12 +29,26 @@ sections:
       # For the Showcase view, do you want to flip alternate rows?
       flip_alt_rows: false
 
-
   - block: markdown
     content:
       title:
-      text: ‎
-          <div style="display:flex; justify-content:center; align-items:center;"> ![](team1.jpg) </div>
+      subtitle: ''
+      text:
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: Logo2.gif
+          filters:
+            brightness: 1
+          parallax: true
+          position: center
+          size: actual # contain #cover
+          text_color_light: true
+      spacing:
+        padding: ['30px', '0', '30px', '0']
+      css_class: fullscreen
+  
     # design:
     #   columns: "1"
     #   background:
